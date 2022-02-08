@@ -30,17 +30,22 @@ int main(void){
 	// constant values to loop through to find flag
 	int challengeArr[] = {110, 1, 105, 110, 1, 106, 2, 97, 123, 100, 3, 117, 53, 5, 116, 95, 48, 102, 8, 102, 95, 121, 48, 117, 114, 95, 67, 125};
 	int trueLength = 0;
+	char *flag; // empty flag pointer
 
 	// traverse challenge array to find out how many # > 10
-	for(int i=0; i<29; i++){
+	// Also dynamically reallocates the size
+	for(int i=0; i<28; i++){
 		if(challengeArr[i] > 10){
 			trueLength++;
-		}
+			if(trueLength){
+				flag = (char*) malloc(trueLength * sizeof(char)); // malloc flag upon first hit
+			} else {
+				flag = (char *) realloc(flag, trueLength); // realloc based upon size of flag
+			}
+		}//if
 	}//for
 
 	// dynamically created array to hold the flag
-	printf("trueLength: %d\n", trueLength);
-	char* flag = (char*) malloc(trueLength * sizeof(char));
 	int j=0; // used for flag array traversal
 	for(int i=0; i<28; i++){
 		if(challengeArr[i] > 10){
