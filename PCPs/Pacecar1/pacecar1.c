@@ -20,12 +20,7 @@ Print the flag
 */
 
 /*
-IDEADS
-
-go through array once, find #'s greater then 10
-use amount of #'s greater than 10 to malloc character array
-append to character array
-print string
+To refactor can realloc when finding inital true length?
 */
 
 #include <stdio.h>
@@ -33,12 +28,11 @@ print string
 
 int main(void){
 	// constant values to loop through to find flag
-	int challengeArr[28] = {110, 1, 105, 110, 1, 106, 2, 97, 123, 100, 3, 117, 53, 5, 116, 95, 48, 102, 8, 102, 95, 121, 48, 117, 114, 95, 67, 125};
-	char alphaString[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	int challengeArr[] = {110, 1, 105, 110, 1, 106, 2, 97, 123, 100, 3, 117, 53, 5, 116, 95, 48, 102, 8, 102, 95, 121, 48, 117, 114, 95, 67, 125};
 	int trueLength = 0;
 
 	// traverse challenge array to find out how many # > 10
-	for(int i=0; i<27; i++){
+	for(int i=0; i<29; i++){
 		if(challengeArr[i] > 10){
 			trueLength++;
 		}
@@ -46,10 +40,16 @@ int main(void){
 
 	// dynamically created array to hold the flag
 	printf("trueLength: %d\n", trueLength);
-	char flag[] = (int*) malloc(trueLength * sizeof(int));
-	
+	char* flag = (char*) malloc(trueLength * sizeof(char));
+	int j=0; // used for flag array traversal
+	for(int i=0; i<28; i++){
+		if(challengeArr[i] > 10){
+			flag[j] = challengeArr[i];
+			j++;
+		}
+	}//for
 
 	//prints the flag
-	printf("%s", alphaString);
+	printf("%s\n", flag);
 	return 0;
 }//main
