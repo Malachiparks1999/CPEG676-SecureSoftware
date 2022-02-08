@@ -33,8 +33,23 @@ print string
 
 int main(void){
 	// constant values to loop through to find flag
-	int flagArr[28] = {110, 1, 105, 110, 1, 106, 2, 97, 123, 100, 3, 117, 53, 5, 116, 95, 48, 102, 8, 102, 95, 121, 48, 117, 114, 95, 67, 125};
+	int challengeArr[28] = {110, 1, 105, 110, 1, 106, 2, 97, 123, 100, 3, 117, 53, 5, 116, 95, 48, 102, 8, 102, 95, 121, 48, 117, 114, 95, 67, 125};
 	char alphaString[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	int trueLength = 0;
+
+	// traverse challenge array to find out how many # > 10
+	for(int i=0; i<27; i++){
+		if(challengeArr[i] > 10){
+			trueLength++;
+		}
+	}//for
+
+	// dynamically created array to hold the flag
+	printf("trueLength: %d\n", trueLength);
+	char flag[] = (int*) malloc(trueLength * sizeof(int));
+	
+
+	//prints the flag
 	printf("%s", alphaString);
 	return 0;
 }//main
