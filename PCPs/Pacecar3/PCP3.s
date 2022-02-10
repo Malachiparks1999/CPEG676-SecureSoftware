@@ -1,102 +1,69 @@
 	.file	"PCP3.c"
 	.intel_syntax noprefix
 	.text
+	.section	.text.startup,"ax",@progbits
+	.p2align 4
 	.globl	main
 	.type	main, @function
 main:
 .LFB0:
 	.cfi_startproc
 	endbr64
-	push	rbp
-	.cfi_def_cfa_offset 16
-	.cfi_offset 6, -16
-	mov	rbp, rsp
-	.cfi_def_cfa_register 6
-	mov	eax, 0
-	pop	rbp
-	.cfi_def_cfa 7, 8
+	xor	eax, eax
 	ret
 	.cfi_endproc
 .LFE0:
 	.size	main, .-main
+	.text
+	.p2align 4
 	.globl	modulus
 	.type	modulus, @function
 modulus:
 .LFB1:
 	.cfi_startproc
 	endbr64
-	push	rbp
-	.cfi_def_cfa_offset 16
-	.cfi_offset 6, -16
-	mov	rbp, rsp
-	.cfi_def_cfa_register 6
-	mov	DWORD PTR -4[rbp], edi
-	mov	DWORD PTR -8[rbp], esi
-	mov	eax, DWORD PTR -4[rbp]
+	mov	eax, edi
 	cdq
-	idiv	DWORD PTR -8[rbp]
+	idiv	esi
 	mov	eax, edx
-	pop	rbp
-	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE1:
 	.size	modulus, .-modulus
+	.p2align 4
 	.globl	mod13
 	.type	mod13, @function
 mod13:
 .LFB2:
 	.cfi_startproc
 	endbr64
-	push	rbp
-	.cfi_def_cfa_offset 16
-	.cfi_offset 6, -16
-	mov	rbp, rsp
-	.cfi_def_cfa_register 6
-	mov	DWORD PTR -4[rbp], edi
-	mov	ecx, DWORD PTR -4[rbp]
-	movsx	rax, ecx
+	movsx	rax, edi
+	mov	edx, edi
 	imul	rax, rax, 1321528399
-	shr	rax, 32
-	mov	edx, eax
-	sar	edx, 2
-	mov	eax, ecx
-	sar	eax, 31
-	sub	edx, eax
-	mov	eax, edx
-	add	eax, eax
-	add	eax, edx
-	sal	eax, 2
-	add	eax, edx
-	sub	ecx, eax
-	mov	edx, ecx
-	mov	eax, edx
-	pop	rbp
-	.cfi_def_cfa 7, 8
+	sar	edx, 31
+	sar	rax, 34
+	sub	eax, edx
+	lea	edx, [rax+rax*2]
+	lea	eax, [rax+rdx*4]
+	sub	edi, eax
+	mov	eax, edi
 	ret
 	.cfi_endproc
 .LFE2:
 	.size	mod13, .-mod13
+	.p2align 4
 	.globl	mod64
 	.type	mod64, @function
 mod64:
 .LFB3:
 	.cfi_startproc
 	endbr64
-	push	rbp
-	.cfi_def_cfa_offset 16
-	.cfi_offset 6, -16
-	mov	rbp, rsp
-	.cfi_def_cfa_register 6
-	mov	DWORD PTR -4[rbp], edi
-	mov	eax, DWORD PTR -4[rbp]
-	cdq
+	mov	edx, edi
+	sar	edx, 31
 	shr	edx, 26
-	add	eax, edx
+	lea	eax, [rdi+rdx]
 	and	eax, 63
 	sub	eax, edx
-	pop	rbp
-	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE3:
