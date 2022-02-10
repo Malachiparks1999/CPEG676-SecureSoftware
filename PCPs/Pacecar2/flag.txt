@@ -1,0 +1,4 @@
+Opened Cutter and looked at the disassembly and found ascii representation
+of flag being added and subbed to eax
+
+ninja{r3v3rs3_th15_y0}
