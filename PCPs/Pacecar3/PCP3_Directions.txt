@@ -1,0 +1,3 @@
+gcc -save-temps -O0 -masm=intel PCP3.c      <---- Used to compile Assembly locally to look at it
+
+Describe what choices the compiler made for the following 3 modulus functions: https://godbolt.org/z/1hqGTbcGo
