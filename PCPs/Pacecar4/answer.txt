@@ -1,0 +1,13 @@
+How I arrived at the answer
+
+1. r2 -Ad <filename>
+2. s main
+3. Vpp (Visual Mode)
+4. Set break points, looking for comparisions
+5. Renamed variables I knw like user input
+6. Set breakpoint when comparing my string to answer
+7. Realized var_54 is a counter, and set to stop at 25 bytes
+	Strings above of random junk above are 24 bytes with a null byte
+	XOR'd with i
+
+Random String = nhlie~q4dj:fiRz?Oc!e'{qj
