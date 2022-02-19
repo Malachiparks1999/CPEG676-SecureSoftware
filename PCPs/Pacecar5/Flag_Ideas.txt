@@ -1,0 +1,4 @@
+Ideas for creating the flag
+    1. XOR random junk by the fibbonaci sequence while taking in input backwards
+    2. XOR with fibbonachi sequence alone
+    3. Only reverse the flag input but force it all to uppercase
