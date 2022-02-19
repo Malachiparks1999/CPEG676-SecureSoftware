@@ -13,13 +13,13 @@ int main(){
     // set up variables
     int term1 = 0, term2 = 1, term3 = term1 + term2;
     int flagLen = MAX;
-    char userInput[MAX] = "UDFLAG{F1b!_@nd_R3v}";
+    char userInput[MAX];
     char encryptUser[MAX];
     char secret[MAX] = "\x55\x45\x47\x4e\x42\x42\x73\x4b\x24\x40\x16\x06\x51\x04\x1f\x39\x30\x7a\x5a\x08";
 
     // ask for user input
     printf("Enter the secret:\n");
-    //scanf("%s",userInput);
+    scanf("%s",userInput);
     
     //encryptString
     for(int i=0; i < MAX; i++){
@@ -30,7 +30,7 @@ int main(){
       term3=term1+term2;
     }
     
-    if(strcmp(encryptUser, secret)){
+    if(strcmp(encryptUser, secret) == 0){
       printf("That's the secret!");
     } else {
       printf("That's not the secret!");
