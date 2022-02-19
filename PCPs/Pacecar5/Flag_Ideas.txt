@@ -1,4 +1,29 @@
 Ideas for creating the flag
-    1. XOR random junk by the fibbonaci sequence while taking in input backwards
+    1. XOR random junk by the fibbonaci sequence while taking in input backwards        (UD Flag idea!)
     2. XOR with fibbonachi sequence alone
     3. Only reverse the flag input but force it all to uppercase
+
+Flag:       UDFLAG{F1b!_@nd_R3v}   (25 chars long)
+Answer in ascii:    
+    85
+    69
+    71
+    78
+    66
+    66
+    115
+    75
+    36
+    64
+    22
+    6
+    81
+    4
+    31
+    57
+    48
+    122
+    90
+    8    
+
+Answer in Hex: \x55\x45\x47\x4e\x42\x42\x73\x4b\x24\x40\x16\x06\x51\x04\x1f\x39\x30\x7a\x5a\x08
