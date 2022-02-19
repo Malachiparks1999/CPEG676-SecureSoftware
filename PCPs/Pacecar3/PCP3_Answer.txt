@@ -4,26 +4,14 @@ CPEG476-010: Secure Software Design
 
 
 Modulus:
-	Moves address at edi into eax, the return pointer
-	Convert Doubleword to Quadword (extends sign bit of return register) ---> Move the remainder of division into edx
-	Sign divid then move remainder, the answer into return register eax
+	Divides the dividend by divsor in 32 bits then moves the remainder into eax, return register to
+	ensure correct value is returned.
 
-s
-Mod 13
-	Move sign extension into 64 bit rax register
-	Move sign extension into edx to preserve
-	Multiply sign extension, store in rax, times crazy large number
-	Shift remainder right, 31 bits
-	Shift return register 34 bits
-	Subtract edx from eax
-	Load in parameter a
-	Repeat steps for full division return the remainder of the division
+Mod 13:
+	Shifts the two numbers to ensure they are small enough to divide eachother by. Then loads in a
+	and subtracts it, then moves result to eax to return.
 
-
-Mod 64
-	Move sign of edi into ex
-	Shigt edx right arithmetically, to keep alter sign of number, then logical shift to divide once more
-	Load in effective address of a
-	and value of a with 63 to produce dividing number
-	Subtract higher number from 13 to get remainder
-	Return eax
+Mod 64: 
+	Loads in potential large number, and shifts it logically and arethmtically. From there ands
+	variable a with 63 to get remainder of modulus. From there does a subtraction to bit correct
+	and returns in eax
