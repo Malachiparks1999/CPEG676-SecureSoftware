@@ -6,7 +6,12 @@
 <br></br>
 ### **CALL**
 Retain Location\
-Creating brand-new spaces\
-explore the unknown
+Jump into the unexplored\
+Continue forward
 <br></br>
-
+### **STACK CREATION**
+Write down addresses\
+Mirror an associate\
+Create a new space
+<br></br>
+### **LEAVE**
