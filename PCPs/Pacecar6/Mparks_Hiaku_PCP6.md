@@ -14,4 +14,7 @@ Write down addresses\
 Mirror an associate\
 Create a new space
 <br></br>
-### **LEAVE**
+### **LEAVE AND RETURN**
+Collapse an old home\
+Return to one's origins\
+Continue forward
