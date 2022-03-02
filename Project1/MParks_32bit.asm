@@ -40,7 +40,7 @@ util:
   sub ecx, 22
 
   ;; print out multiplication result
-  mov edx, 2   ;; msg length\
+  mov edx, 10   ;; msg length\
   mov ebx, 1    ;; write to stdout (file descripter 1)
   mov eax, 4    ;; call sys_write
   int 0x80      ;; sys_call
@@ -58,6 +58,3 @@ _start:
 section	.data ;;0xA and 0xD are new line and then carriage return (enter)
   msg: db 'I will be doing some simple math today!', 0xA, 0xD ;; will be using this to show whats happening
   mul: db 'Multiplying 7 * 11: 77', 0xA, 0xD ;; will be used in showing multiplication
-
-segment .bss
-  res resb 1
