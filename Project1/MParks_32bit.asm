@@ -7,10 +7,17 @@ section .text:
   global _start ;;to compile nasm -f elf t32.asm THEN ld -m elf_i386 -s -o run32 t32.o
 
 util:
+  ;; this line and above set up new stack frame
   push ebp
-  mov ebp, esp    ;; this line and above set up new stack frame
-  sub esp, 0x10
-  mov dword [esp], 0xdeadbeef
+  mov ebp, esp
+  ;; System call to print out to stdout my msg
+  sub esp, 39   ;; where message is stored
+  mov dword [esp], msg  ;; load in message
+  mov edx, 39   ;; msg length
+  mov ecx, [ebp-39]  ;; load in message
+  mov ebx, 1    ;; write to stdout (file descripter 1)
+  mov eax, 4    ;; call sys_write
+  int 0x80      ;; sys_call
   leave
   ret
 
