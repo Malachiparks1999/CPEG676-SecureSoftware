@@ -1,0 +1,8 @@
+To compile 32 bit
+
+compile nasm -f elf <filename>.asm
+ld -m elf_i386 -s -o <executable name> <filename>.o
+
+To compile 64 bit
+nasm -f elf64 <filename>.asm
+ld -o <executable name> <filename>.o
