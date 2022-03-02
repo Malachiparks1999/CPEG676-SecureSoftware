@@ -8,7 +8,7 @@ section .text:
 
 util:
   push ebp
-  mov ebp, esp
+  mov ebp, esp    ;; this line and above set up new stack frame
   sub esp, 0x10
   mov dword [esp], 0xdeadbeef
   leave
@@ -17,7 +17,10 @@ util:
 _start:
   push ebp
   mov ebp, esp
-  call util
-  xor ebx,ebx
-  mov eax, 0x01
-  int 0x80
+  call util   ;; push eip here
+  xor ebx,ebx     ;; system call arg1
+  mov eax, 0x01   ;; system call arg number
+  int 0x80        ;; system call interupt
+
+section	.data
+  msg: db 'I will be doing some simple math today!', 39 ;; will be using this to show whats happening
