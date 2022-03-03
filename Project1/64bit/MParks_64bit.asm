@@ -1,7 +1,7 @@
 ;;  Creators:       Malachi Parks
 ;;  Section:        CPEG476-010
 ;;  Assignment:     Project 1
-;;  File Description:  Used to print to the nc session
+;;  File Description:  64 bit assembly that prints a few messages and does a few math operations
 
 ;; Compiling instructions
 ;; nasm -f elf MParks_32bit.asm 
@@ -49,7 +49,7 @@ _start:
   push ebp
   mov ebp, esp
   sub esp, 4  ; first argument for func
-  mov dword [esp], 11
+  push 11
   call util   ;; push eip here
   xor ebx,ebx     ;; system call arg1
   mov eax, 0x01   ;; system call arg number
