@@ -34,9 +34,7 @@ util:
   int 0x80      ;; sys_call
 
   ;; Variables for for printing
-  sub esp, 4
-  mov dword [ebp-68], 11    ;; first num to multiply
-  imul ecx, [ebp-68], 7    ;; literal number 77
+  imul ecx, [ebp+8], 7    ;; literal number 77
   sub ecx, 22
 
   ;; print out multiplication result
@@ -50,6 +48,8 @@ util:
 _start:
   push ebp
   mov ebp, esp
+  sub esp, 4  ; first argument for func
+  push 11
   call util   ;; push eip here
   xor ebx,ebx     ;; system call arg1
   mov eax, 0x01   ;; system call arg number
