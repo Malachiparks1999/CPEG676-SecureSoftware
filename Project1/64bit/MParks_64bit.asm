@@ -4,57 +4,53 @@
 ;;  File Description:  64 bit assembly that prints a few messages and does a few math operations
 
 ;; Compiling instructions
-;; nasm -f elf MParks_32bit.asm 
-;; ld -m elf_i386 -s -o MParks_32bit MParks_32bit.o
+;; nasm -f elf64 MParks_64bit.asm   
+;; ld -o MParks_64bit MParks_64bit.o
 
 section .text:
-  global _start ;; tells the linker where to start
+  global _start
 
-util:
-  ;; this line and above set up new stack frame
-  push ebp
-  mov ebp, esp
-
-  ;; System call to print out to stdout my msg
-  sub esp, 41   ;; where message is stored
-  mov dword [esp], msg  ;; load in message
-  mov edx, 41   ;; msg length
-  mov ecx, [ebp-41]  ;; load in message
-  mov ebx, 1    ;; write to stdout (file descripter 1)
-  mov eax, 4    ;; call sys_write
-  int 0x80      ;; sys_call
-
-  ;; print out multiplication message
-  sub esp, 23
-  mov dword [esp], mul  ;; load in message
-  mov edx, 23   ;; msg length
-  mov ecx, [ebp-64]  ;; load in message
-  mov ebx, 1    ;; write to stdout (file descripter 1)
-  mov eax, 4    ;; call sys_write
-  int 0x80      ;; sys_call
-
-  ;; Variables for for printing
-  imul ecx, [ebp+8], 7    ;; literal number 77
-  sub ecx, 22
-
-  ;; print out multiplication result
-  mov edx, 10   ;; msg length\
-  mov ebx, 1    ;; write to stdout (file descripter 1)
-  mov eax, 4    ;; call sys_write
-  int 0x80      ;; sys_call
+sub:
+  ;; creating a new stack
+  push rbp
+  mov rbp, rsp
+  ;; room for new variables carried in
+  sub rsp, 0x10
+  mov [rbp-8], rdi
+  mov [rbp-16], rsi
+  ;; random subtraction, results in print being called
+  mov rax, 127
+  sub rax, [rbp-16]
+  sub rax, [rbp-8]
+  ;; system call to print out message, eax already ready to write out
+  xor rdi, rdi    ;; zero out in case of extra junk
+  xor rsi, rsi    ;; zero out in case of extra junk
+  mov rdi, 1      ;; fd to stdout
+  mov rsi, msg    ;; load out message to print
+  mov rdx, 23      ;; length of message
+  syscall
+  ;; system call to print sub message
+  xor rdi, rdi    ;; zero out in case of extra junk
+  xor rsi, rsi    ;; zero out in case of extra junk
+  mov rdi, 1      ;; fd to stdout
+  mov rsi, subMsg    ;; load out message to print
+  mov rdx, 60      ;; length of message
+  syscall
   leave
   ret
 
 _start:
-  push ebp
-  mov ebp, esp
-  sub esp, 4  ; first argument for func
-  push 11
-  call util   ;; push eip here
-  xor ebx,ebx     ;; system call arg1
-  mov eax, 0x01   ;; system call arg number
-  int 0x80        ;; system call interupt
+  ;; new stack frame
+  push rbp
+  mov rbp, rsp
+  ;; moving variables to be used by add
+  mov rsi, 26
+  mov rdi, 100
+  call sub
+  xor rdi,rdi
+  mov rax, 60
+  syscall
 
 section	.data ;;0xA and 0xD are new line and then carriage return (enter)
   msg: db 'I will be doing some simple math today!', 0xA, 0xD ;; will be using this to show whats happening
-  mul: db 'Multiplying 7 * 11: 77', 0xA, 0xD ;; will be used in showing multiplication
+  subMsg: db 'This was called due to subtractions occuring in registers!, 0xA, 0xD' ;; will be used after subtraction occurs
