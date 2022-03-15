@@ -13,7 +13,13 @@ warmup: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically lin
 
 Radare2:
 afl --> list all functions
+
+Canary is always 4 or 8 bytes from bp
+
 '''
 
 # Import Libarries
 from pwn import *
+
+# Starting ELF
+elf = ELF("./warmup")
