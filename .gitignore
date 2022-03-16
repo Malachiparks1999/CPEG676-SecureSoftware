@@ -54,3 +54,9 @@ dkms.conf
 # Visual Studio
 .gitignore/
 .vscode/
+
+# Failed pwntools pipe
+core
+
+# GDB
+.gdb_history
