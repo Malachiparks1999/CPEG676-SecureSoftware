@@ -31,6 +31,11 @@ Did digging on stack with %7$p %8$p %9$p, showed that %9$p is a ptr!!
 To find what func was did
     ps -ef | grep "warmup"
     r2 -Ad PID
+
+Use for leak the following order:
+    leak    base    canary
+    %9$p    $20$p   $23$p
+    printf  main    last 8 bytes
 '''
 
 # Import Libarries
