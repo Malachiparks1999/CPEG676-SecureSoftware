@@ -27,6 +27,7 @@ HOST = "165.22.46.243"
 PORT = 8877
 
 # Used to get 
+print("ELF OF BINARY:")
 elf = ELF("./formatz")
 
 # Knows the context to debug in
@@ -34,12 +35,16 @@ context.binary = elf
 context.log_level = "debug"
 
 def progEnv():
+    libc = ELF('/usr/lib64/ld-linux-x86-64.so.2')      # Use local libc library
+    return process(elf.path)                # Start a process to use
+    '''     COMMENTED OUT FOR NOW TO TEST LOCALLY
     if args.LOCAL:
         libc = ELF('/usr/lib/libc-2.33.so', checksec=False)
         return process([elf.path])
     else:
         libc = ELF('./libc6_2.31-0ubuntu9.2_amd64.so', checksec=False)
         return remote(HOST, PORT), libc
+    '''
 
 # Used by the autopwner as a callback function
 def exec_fmt(payload):
@@ -49,6 +54,7 @@ def exec_fmt(payload):
 
 def main():
     print("hello!")
+    test = progEnv()
 
 # Execute the function main when written
 if __name__ == "__main__":
