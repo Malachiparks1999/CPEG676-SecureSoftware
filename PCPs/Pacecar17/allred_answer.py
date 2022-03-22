@@ -1,7 +1,7 @@
 '''
 Creators:       Malachi Parks
 Section:        CPEG476-010
-Assignment:     PCP18: Vuln
+Assignment:     PCP17: Vuln
 File Description:  Start with red, slowly add security until it's unpwnable
 
 Checksec info:
