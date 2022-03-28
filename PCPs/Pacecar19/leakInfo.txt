@@ -1,0 +1,4500 @@
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47891
+index: 0
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47891)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST %0$p\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47892
+index: 1
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47892)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x100\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47893
+index: 2
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47893)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f61580\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47894
+index: 3
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47894)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048550\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47895
+index: 4
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47895)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8075b4\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47896
+index: 5
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47896)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9ad9e0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47897
+index: 6
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47897)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x3\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47898
+index: 7
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47898)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x70243725\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47899
+index: 8
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47899)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7fd000a\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47900
+index: 9
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47900)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7cfb00c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47901
+index: 10
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47901)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7d8e17c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47902
+index: 11
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47902)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x804829c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47903
+index: 12
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47903)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7da477c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47904
+index: 13
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47904)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf63d4e2e\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47905
+index: 14
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47905)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc3a4d0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47906
+index: 15
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47906)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x7b1ea71\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47907
+index: 16
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47907)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8e7714\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47908
+index: 17
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47908)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f583e0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47909
+index: 18
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47909)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47910
+index: 19
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47910)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47911
+index: 20
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47911)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47912
+index: 21
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47912)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47913
+index: 22
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47913)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47914
+index: 23
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47914)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47915
+index: 24
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47915)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47916
+index: 25
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47916)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47917
+index: 26
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47917)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0xfff\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47918
+index: 27
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47918)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f12000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47919
+index: 28
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47919)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47920
+index: 29
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47920)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf63d4e2e\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47921
+index: 30
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47921)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f69b50\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47922
+index: 31
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47922)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe51464\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47923
+index: 32
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47923)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x804829c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47924
+index: 33
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47924)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7ef36dd\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47925
+index: 34
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47925)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x804821c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47926
+index: 35
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47926)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffdfb62c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47927
+index: 36
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47927)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f63af0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47928
+index: 37
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47928)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47929
+index: 38
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47929)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7eeb410\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47930
+index: 39
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47930)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47931
+index: 40
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47931)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47932
+index: 41
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47932)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47933
+index: 42
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47933)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f0a990\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47934
+index: 43
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47934)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47935
+index: 44
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47935)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47936
+index: 45
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47936)
+[x] Receiving all data: 37B
+[+] Receiving all data: Done (37B)
+b'You are on the NAUGHTY LIST 0xc30000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47937
+index: 46
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47937)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47938
+index: 47
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47938)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f707e0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47939
+index: 48
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47939)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47940
+index: 49
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47940)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47941
+index: 50
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47941)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7ff2000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47942
+index: 51
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47942)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47943
+index: 52
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47943)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47944
+index: 53
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47944)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x534\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47945
+index: 54
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47945)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x4e\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47946
+index: 55
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47946)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7eb9224\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47947
+index: 56
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47947)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47948
+index: 57
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47948)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f2a000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47949
+index: 58
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47949)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f4d7e0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47950
+index: 59
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47950)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7fa94e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47951
+index: 60
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47951)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f19000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47952
+index: 61
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47952)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f8f2f0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47953
+index: 62
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47953)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47954
+index: 63
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47954)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7dae362\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47955
+index: 64
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47955)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7edf3fc\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47956
+index: 65
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47956)
+[x] Receiving all data: 36B
+[+] Receiving all data: Done (36B)
+b'You are on the NAUGHTY LIST 0x40000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47957
+index: 66
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47957)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9b7f5c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47958
+index: 67
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47958)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x80486ab\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47959
+index: 68
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47959)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47960
+index: 69
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47960)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffacbce4\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47961
+index: 70
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47961)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa9987c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47962
+index: 71
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47962)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x38379a00\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47963
+index: 72
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47963)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8e2d60\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47964
+index: 73
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47964)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47965
+index: 74
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47965)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47966
+index: 75
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47966)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7dc8ee5\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47967
+index: 76
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47967)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f23000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47968
+index: 77
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47968)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f96000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47969
+index: 78
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47969)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47970
+index: 79
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47970)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7d3fee5\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47971
+index: 80
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47971)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47972
+index: 81
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47972)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8cf654\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47973
+index: 82
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47973)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe38dec\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47974
+index: 83
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47974)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff941554\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47975
+index: 84
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47975)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f72000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47976
+index: 85
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47976)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47977
+index: 86
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47977)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffee1938\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47978
+index: 87
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47978)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47979
+index: 88
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47979)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7fa1000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47980
+index: 89
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47980)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47981
+index: 90
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47981)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7eec000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47982
+index: 91
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47982)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f83000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47983
+index: 92
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47983)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47984
+index: 93
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47984)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x3b04b57\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47985
+index: 94
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47985)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x6ee132e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47986
+index: 95
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47986)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47987
+index: 96
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47987)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47988
+index: 97
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47988)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47989
+index: 98
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47989)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47990
+index: 99
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47990)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048420\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47991
+index: 100
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47991)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47992
+index: 101
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47992)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7fc0b24\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47993
+index: 102
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47993)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f062f0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47994
+index: 103
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47994)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8049ca4\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47995
+index: 104
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47995)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47996
+index: 105
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47996)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048420\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47997
+index: 106
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47997)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47998
+index: 107
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47998)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048452\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 47999
+index: 108
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 47999)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048536\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48000
+index: 109
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48000)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48001
+index: 110
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48001)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffece104\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48002
+index: 111
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48002)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048660\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48003
+index: 112
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48003)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x80486c0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48004
+index: 113
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48004)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f932f0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48005
+index: 114
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48005)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffaf300c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48006
+index: 115
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48006)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x1c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48007
+index: 116
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48007)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48008
+index: 117
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48008)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff85e180\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48009
+index: 118
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48009)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48010
+index: 119
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48010)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd0b18a\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48011
+index: 120
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48011)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff96419a\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48012
+index: 121
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48012)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe4020e\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48013
+index: 122
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48013)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffcf3221\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48014
+index: 123
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48014)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc13235\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48015
+index: 124
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48015)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa7d26c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48016
+index: 125
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48016)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc762a6\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48017
+index: 126
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48017)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc912bc\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48018
+index: 127
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48018)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa182d8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48019
+index: 128
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48019)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8152ec\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48020
+index: 129
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48020)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd012fb\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48021
+index: 130
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48021)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xfffa9332\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48022
+index: 131
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48022)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffdf235b\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48023
+index: 132
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48023)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc8c373\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48024
+index: 133
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48024)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd2e386\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48025
+index: 134
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48025)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff829395\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48026
+index: 135
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48026)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9cc3d6\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48027
+index: 136
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48027)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9e33f2\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48028
+index: 137
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48028)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8aa403\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48029
+index: 138
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48029)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff8d241d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48030
+index: 139
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48030)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xfff13432\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48031
+index: 140
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48031)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd01451\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48032
+index: 141
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48032)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffdd9485\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48033
+index: 142
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48033)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xfffb84ab\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48034
+index: 143
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48034)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe804d8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48035
+index: 144
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48035)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe3a50c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48036
+index: 145
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48036)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc8c51b\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48037
+index: 146
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48037)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff91352f\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48038
+index: 147
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48038)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff83f540\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48039
+index: 148
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48039)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff920b22\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48040
+index: 149
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48040)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9c6b3b\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48041
+index: 150
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48041)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff82bb84\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48042
+index: 151
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48042)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9bfbb8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48043
+index: 152
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48043)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffebebe0\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48044
+index: 153
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48044)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffafec1f\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48045
+index: 154
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48045)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa10c41\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48046
+index: 155
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48046)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffcf3c58\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48047
+index: 156
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48047)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffca3c6c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48048
+index: 157
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48048)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffbd8c84\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48049
+index: 158
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48049)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff938cb8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48050
+index: 159
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48050)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa0acd8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48051
+index: 160
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48051)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc83ce6\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48052
+index: 161
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48052)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9ead26\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48053
+index: 162
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48053)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xfff90d33\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48054
+index: 163
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48054)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd44d3b\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48055
+index: 164
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48055)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd76d46\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48056
+index: 165
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48056)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd31d58\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48057
+index: 166
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48057)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffbdbd77\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48058
+index: 167
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48058)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffaebdd1\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48059
+index: 168
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48059)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffe0be41\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48060
+index: 169
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48060)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9a6e51\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48061
+index: 170
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48061)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc6ff27\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48062
+index: 171
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48062)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffab7f3a\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48063
+index: 172
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48063)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffbe5f5c\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48064
+index: 173
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48064)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffc0cf92\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48065
+index: 174
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48065)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffd0cfa6\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48066
+index: 175
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48066)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xff9bffb9\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48067
+index: 176
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48067)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48068
+index: 177
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48068)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x20\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48069
+index: 178
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48069)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f60540\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48070
+index: 179
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48070)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x21\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48071
+index: 180
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48071)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7fce000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48072
+index: 181
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48072)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x10\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48073
+index: 182
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48073)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xbfebfbff\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48074
+index: 183
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48074)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x6\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48075
+index: 184
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48075)
+[x] Receiving all data: 35B
+[+] Receiving all data: Done (35B)
+b'You are on the NAUGHTY LIST 0x1000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48076
+index: 185
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48076)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x11\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48077
+index: 186
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48077)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x64\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48078
+index: 187
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48078)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x3\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48079
+index: 188
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48079)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048034\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48080
+index: 189
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48080)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x4\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48081
+index: 190
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48081)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x20\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48082
+index: 191
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48082)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x5\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48083
+index: 192
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48083)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48084
+index: 193
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48084)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x7\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48085
+index: 194
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48085)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xf7f6a000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48086
+index: 195
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48086)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48087
+index: 196
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48087)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48088
+index: 197
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48088)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x9\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48089
+index: 198
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48089)
+[x] Receiving all data: 38B
+[+] Receiving all data: Done (38B)
+b'You are on the NAUGHTY LIST 0x8048420\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48090
+index: 199
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48090)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0xb\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48091
+index: 200
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48091)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x3e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48092
+index: 201
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48092)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0xc\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48093
+index: 202
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48093)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x3e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48094
+index: 203
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48094)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0xd\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48095
+index: 204
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48095)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x3e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48096
+index: 205
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48096)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0xe\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48097
+index: 206
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48097)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST 0x3e8\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48098
+index: 207
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48098)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x17\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48099
+index: 208
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48099)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48100
+index: 209
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48100)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x19\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48101
+index: 210
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48101)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffa58b7b\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48102
+index: 211
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48102)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x1a\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48103
+index: 212
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48103)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0x2\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48104
+index: 213
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48104)
+[x] Receiving all data: 33B
+[+] Receiving all data: Done (33B)
+b'You are on the NAUGHTY LIST 0x1f\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48105
+index: 214
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48105)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xffbb2fee\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48106
+index: 215
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48106)
+[x] Receiving all data: 32B
+[+] Receiving all data: Done (32B)
+b'You are on the NAUGHTY LIST 0xf\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48107
+index: 216
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48107)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xfff2cdeb\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48108
+index: 217
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48108)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48109
+index: 218
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48109)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48110
+index: 219
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48110)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48111
+index: 220
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48111)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48112
+index: 221
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48112)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48113
+index: 222
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48113)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xa3000000\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48114
+index: 223
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48114)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xac2b9361\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48115
+index: 224
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48115)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x31dd4b77\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48116
+index: 225
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48116)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0xc322510d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48117
+index: 226
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48117)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x69dbc440\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48118
+index: 227
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48118)
+[x] Receiving all data: 37B
+[+] Receiving all data: Done (37B)
+b'You are on the NAUGHTY LIST 0x363836\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48119
+index: 228
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48119)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48120
+index: 229
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48120)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48121
+index: 230
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48121)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48122
+index: 231
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48122)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48123
+index: 232
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48123)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48124
+index: 233
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48124)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48125
+index: 234
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48125)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48126
+index: 235
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48126)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48127
+index: 236
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48127)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48128
+index: 237
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48128)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48129
+index: 238
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48129)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48130
+index: 239
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48130)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48131
+index: 240
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48131)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48132
+index: 241
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48132)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48133
+index: 242
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48133)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48134
+index: 243
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48134)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48135
+index: 244
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48135)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48136
+index: 245
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48136)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48137
+index: 246
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48137)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48138
+index: 247
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48138)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48139
+index: 248
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48139)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48140
+index: 249
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48140)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48141
+index: 250
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48141)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48142
+index: 251
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48142)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48143
+index: 252
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48143)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48144
+index: 253
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48144)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48145
+index: 254
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48145)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48146
+index: 255
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48146)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48147
+index: 256
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48147)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48148
+index: 257
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48148)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48149
+index: 258
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48149)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48150
+index: 259
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48150)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48151
+index: 260
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48151)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48152
+index: 261
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48152)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48153
+index: 262
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48153)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48154
+index: 263
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48154)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48155
+index: 264
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48155)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48156
+index: 265
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48156)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48157
+index: 266
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48157)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48158
+index: 267
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48158)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48159
+index: 268
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48159)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48160
+index: 269
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48160)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48161
+index: 270
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48161)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48162
+index: 271
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48162)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48163
+index: 272
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48163)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48164
+index: 273
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48164)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48165
+index: 274
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48165)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48166
+index: 275
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48166)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48167
+index: 276
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48167)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48168
+index: 277
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48168)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48169
+index: 278
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48169)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48170
+index: 279
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48170)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48171
+index: 280
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48171)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48172
+index: 281
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48172)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48173
+index: 282
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48173)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48174
+index: 283
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48174)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48175
+index: 284
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48175)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48176
+index: 285
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48176)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48177
+index: 286
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48177)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48178
+index: 287
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48178)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48179
+index: 288
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48179)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48180
+index: 289
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48180)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48181
+index: 290
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48181)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48182
+index: 291
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48182)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48183
+index: 292
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48183)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48184
+index: 293
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48184)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48185
+index: 294
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48185)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48186
+index: 295
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48186)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48187
+index: 296
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48187)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48188
+index: 297
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48188)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48189
+index: 298
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48189)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48190
+index: 299
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48190)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48191
+index: 300
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48191)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48192
+index: 301
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48192)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48193
+index: 302
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48193)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48194
+index: 303
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48194)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48195
+index: 304
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48195)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48196
+index: 305
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48196)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48197
+index: 306
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48197)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48198
+index: 307
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48198)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48199
+index: 308
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48199)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48200
+index: 309
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48200)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48201
+index: 310
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48201)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x3733312f\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48202
+index: 311
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48202)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48203
+index: 312
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48203)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48204
+index: 313
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48204)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48205
+index: 314
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48205)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48206
+index: 315
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48206)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48207
+index: 316
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48207)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48208
+index: 317
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48208)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48209
+index: 318
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48209)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48210
+index: 319
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48210)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48211
+index: 320
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48211)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48212
+index: 321
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48212)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48213
+index: 322
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48213)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48214
+index: 323
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48214)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48215
+index: 324
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48215)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48216
+index: 325
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48216)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48217
+index: 326
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48217)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48218
+index: 327
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48218)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48219
+index: 328
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48219)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48220
+index: 329
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48220)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48221
+index: 330
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48221)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48222
+index: 331
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48222)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48223
+index: 332
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48223)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48224
+index: 333
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48224)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48225
+index: 334
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48225)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48226
+index: 335
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48226)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48227
+index: 336
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48227)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48229
+index: 337
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48229)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48233
+index: 338
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48233)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48234
+index: 339
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48234)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48235
+index: 340
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48235)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48239
+index: 341
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48239)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48243
+index: 342
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48243)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48244
+index: 343
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48244)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48245
+index: 344
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48245)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48246
+index: 345
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48246)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48247
+index: 346
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48247)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48248
+index: 347
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48248)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48249
+index: 348
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48249)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48250
+index: 349
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48250)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48251
+index: 350
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48251)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48252
+index: 351
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48252)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48253
+index: 352
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48253)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48254
+index: 353
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48254)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48255
+index: 354
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48255)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48256
+index: 355
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48256)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48257
+index: 356
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48257)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48258
+index: 357
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48258)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48259
+index: 358
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48259)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48260
+index: 359
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48260)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48261
+index: 360
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48261)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48262
+index: 361
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48262)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48263
+index: 362
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48263)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48264
+index: 363
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48264)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48265
+index: 364
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48265)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48266
+index: 365
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48266)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48267
+index: 366
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48267)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48268
+index: 367
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48268)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48269
+index: 368
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48269)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48270
+index: 369
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48270)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48271
+index: 370
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48271)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48272
+index: 371
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48272)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x6d2f656d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48273
+index: 372
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48273)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48274
+index: 373
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48274)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48275
+index: 374
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48275)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48276
+index: 375
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48276)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48277
+index: 376
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48277)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48278
+index: 377
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48278)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48279
+index: 378
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48279)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48280
+index: 379
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48280)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48281
+index: 380
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48281)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48282
+index: 381
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48282)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48283
+index: 382
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48283)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48284
+index: 383
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48284)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48285
+index: 384
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48285)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48286
+index: 385
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48286)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48287
+index: 386
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48287)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48288
+index: 387
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48288)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48289
+index: 388
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48289)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48290
+index: 389
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48290)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48291
+index: 390
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48291)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x74614c2d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48292
+index: 391
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48292)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48293
+index: 392
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48293)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48294
+index: 393
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48294)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48295
+index: 394
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48295)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48296
+index: 395
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48296)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48297
+index: 396
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48297)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48298
+index: 397
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48298)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48299
+index: 398
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48299)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48300
+index: 399
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48300)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48301
+index: 400
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48301)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48302
+index: 401
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48302)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48303
+index: 402
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48303)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x45530068\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48304
+index: 403
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48304)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48305
+index: 404
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48305)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48306
+index: 405
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48306)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48307
+index: 406
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48307)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48308
+index: 407
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48308)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48309
+index: 408
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48309)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48310
+index: 409
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48310)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48311
+index: 410
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48311)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48312
+index: 411
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48312)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48313
+index: 412
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48313)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48314
+index: 413
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48314)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48315
+index: 414
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48315)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48316
+index: 415
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48316)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48317
+index: 416
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48317)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48318
+index: 417
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48318)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48319
+index: 418
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48319)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48320
+index: 419
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48320)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48321
+index: 420
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48321)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48322
+index: 421
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48322)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48323
+index: 422
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48323)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x44006873\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48324
+index: 423
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48324)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48325
+index: 424
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48325)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48326
+index: 425
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48326)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48327
+index: 426
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48327)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48328
+index: 427
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48328)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48329
+index: 428
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48329)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48330
+index: 429
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48330)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x732f676e\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48331
+index: 430
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48331)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48332
+index: 431
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48332)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48333
+index: 432
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48333)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x2d656475\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48334
+index: 433
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48334)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48335
+index: 434
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48335)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48336
+index: 435
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48336)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48337
+index: 436
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48337)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48338
+index: 437
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48338)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48339
+index: 438
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48339)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48340
+index: 439
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48340)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48341
+index: 440
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48341)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48342
+index: 441
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48342)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x3a303734\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48343
+index: 442
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48343)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48344
+index: 443
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48344)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48345
+index: 444
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48345)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48346
+index: 445
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48346)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48347
+index: 446
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48347)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48348
+index: 447
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48348)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48349
+index: 448
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48349)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48350
+index: 449
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48350)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48351
+index: 450
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48351)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48352
+index: 451
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48352)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48353
+index: 452
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48353)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x706c616d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48354
+index: 453
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48354)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48355
+index: 454
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48355)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48356
+index: 455
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48356)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48357
+index: 456
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48357)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48358
+index: 457
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48358)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48359
+index: 458
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48359)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48360
+index: 459
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48360)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48361
+index: 460
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48361)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48362
+index: 461
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48362)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48363
+index: 462
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48363)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48364
+index: 463
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48364)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48365
+index: 464
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48365)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48366
+index: 465
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48366)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48367
+index: 466
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48367)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48368
+index: 467
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48368)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48369
+index: 468
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48369)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48370
+index: 469
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48370)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48371
+index: 470
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48371)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48372
+index: 471
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48372)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48373
+index: 472
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48373)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48374
+index: 473
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48374)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x74652f3d\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48375
+index: 474
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48375)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48376
+index: 475
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48376)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48377
+index: 476
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48377)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48378
+index: 477
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48378)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x746e7562\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48379
+index: 478
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48379)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48380
+index: 479
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48380)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48381
+index: 480
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48381)
+[x] Receiving all data: 39B
+[+] Receiving all data: Done (39B)
+b'You are on the NAUGHTY LIST 0x6e69622f\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48382
+index: 481
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48382)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48383
+index: 482
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48383)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48384
+index: 483
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48384)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48385
+index: 484
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48385)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48386
+index: 485
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48386)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48387
+index: 486
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48387)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48388
+index: 487
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48388)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48389
+index: 488
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48389)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48390
+index: 489
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48390)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48391
+index: 490
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48391)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48392
+index: 491
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48392)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48393
+index: 492
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48393)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48397
+index: 493
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48397)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48400
+index: 494
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48400)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48401
+index: 495
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48401)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48402
+index: 496
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48402)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48403
+index: 497
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48403)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48404
+index: 498
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48404)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
+[x] Starting local process './naughty'
+[+] Starting local process './naughty': pid 48405
+index: 499
+[x] Receiving all data
+[x] Receiving all data: 0B
+[*] Process './naughty' stopped with exit code 0 (pid 48405)
+[x] Receiving all data: 34B
+[+] Receiving all data: Done (34B)
+b'You are on the NAUGHTY LIST (nil)\n'
