@@ -23,20 +23,21 @@ rabin2 -s chall_09
 from pwn import *
 
 # Making copy of executable format!
-elf = ELF("./chall_09", checksec=False)
+elf = context.binary = ELF("./chall_09", checksec=False)
 
 # Start process
 p=process("./chall_09")
 
 # Grab key that is being xor'd
 key = elf.sym.key
+print("KEY: ",key)
 Hkey = hex(key)
-print("Hex Key: ",Hkey)
+print("HEX KEY: ",Hkey)
 
-# Xoring key with 30 to encrpyt
-endByte = b"\x30"
-Xkey = xor(elf.string(key),endByte)
+# Xoring key with 105 to encrpyt ie 0x69
+encrpytor = b"\x69"
+Xkey = xor(Hkey,encrpytor)
 
 # Sending and see what happens
-p.send(Xkey)
+p.sendline(Xkey)
 p.interactive()
