@@ -35,7 +35,7 @@ Hkey = hex(key)
 print("HEX KEY: ",Hkey)
 
 # Xoring key with 105 to encrpyt ie 0x69
-encrpytor = b"\x69"
+encrpytor = b"0x69"
 Xkey = xor(Hkey,encrpytor)
 
 # Sending and see what happens
