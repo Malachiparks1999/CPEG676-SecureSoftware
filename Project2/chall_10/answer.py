@@ -2,7 +2,7 @@
 Creators:       Malachi Parks
 Section:        CPEG476-010
 Assignment:     Project 2 --- chall_10
-File Description:  
+File Description:  ROP Chain, simple with one arg
 
 Checksec info:
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
