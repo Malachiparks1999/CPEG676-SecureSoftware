@@ -2,7 +2,7 @@
 Creators:       Malachi Parks
 Section:        CPEG476-010
 Assignment:     Project 2 --- chall_14
-File Description:  
+File Description:  ROP Gadget calling bin/sh since statically 
 
 Checksec info:
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
