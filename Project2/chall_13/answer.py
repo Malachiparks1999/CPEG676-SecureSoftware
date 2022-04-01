@@ -2,7 +2,7 @@
 Creators:       Malachi Parks
 Section:        CPEG476-010
 Assignment:     Project 2 --- chall_13
-File Description:  
+# File Description:  Looks like a usual win func with no PIE and no canary??? so can I just bof
 
 Checksec info:
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
