@@ -27,11 +27,12 @@ sub:
   xor rsi, rsi    ;; zero out in case of extra junk
   mov rdi, 1      ;; fd to stdout
   mov rsi, msg    ;; load out message to print
-  mov rdx, 23      ;; length of message
+  mov rdx, 99      ;; length of message
   syscall
   ;; system call to print sub message
   xor rdi, rdi    ;; zero out in case of extra junk
   xor rsi, rsi    ;; zero out in case of extra junk
+  xor rdx, rdx	  ;; zero out in case of extra junk
   mov rdi, 1      ;; fd to stdout
   mov rsi, subMsg    ;; load out message to print
   mov rdx, 60      ;; length of message
@@ -43,7 +44,7 @@ _start:
   ;; new stack frame
   push rbp
   mov rbp, rsp
-  ;; moving variables to be used by add
+  ;; moving variables to be used by sub
   mov rsi, 26
   mov rdi, 100
   call sub

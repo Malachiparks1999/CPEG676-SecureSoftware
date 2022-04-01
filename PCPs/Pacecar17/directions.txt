@@ -1,0 +1,4 @@
+I'm showing you some vulnerable source code. 
+Here is the task: compile it with all of the protections turned off and exploit it. 
+Now start to remove the protections and tell me how close to full green can you go before you can't exploit it anymore 
+(or if you can exploit it with just gcc source.c).
