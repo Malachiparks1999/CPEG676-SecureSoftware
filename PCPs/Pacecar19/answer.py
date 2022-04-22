@@ -28,3 +28,11 @@ Useful Funcs
 
 # Import Libaries
 from pwn import *
+
+# set context for auto-pwner
+context(arch="i386")
+bin=ELF('./naughty')
+libc=ELF('libc-2.27.so')
+
+# Starting process
+p=process("./naughty")
