@@ -1,0 +1,4 @@
+Linking a specific glibc. Follow the notes from class22 with the house_of_spirit demo from https://github.com/shellphish/how2heap, click the arrow on the table to 
+get to the interactive demo (and type run) to see what success looks like (the predicted address emerging from malloc). 
+Now grab the source code for house_of_spirit.c and compile it using gcc, no special flags. Use patchelf and LD_LIBRARY_PATH to get that same behavior on your box, 
+then use pwntools to get the same behavior in python. Take a screenshot of you correctly linking in the 2 methods.
