@@ -14,4 +14,34 @@ CloneWarS: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically 
 
 # Import Libraries
 from pwn import *
+filename = "./CloneWarS"
+elf = ELF(filename)
+context.arch = 'amd64'
 
+# Setting up helper functions for each
+def buildDeathStar(size):
+    p.sendlineafter(b"Your choiec: ", '1')
+    p.sendlineafter(b"Assemble death star: ",str(size))
+
+def r2d2(num):
+    p.sendlineafter(b"Your choiec: ", '2')
+    p.sendlineafter(b"R2?: ",str(num))
+
+def starships(size,kind,capacity):
+    p.sendlineafter('Your choice: ', '3')
+    p.sendlineafter('Master, the amount of starships: ', str(size))
+    p.sendlineafter('What kind of starships?: ', kind)
+    p.sendlineafter('Capacity of troopers in the starships: ', str(capacity))
+
+def lightsabers(nLs, color):
+    p.sendlineafter('Your choice: ', '5')
+    p.sendafter('How many lightsabers do you think you will need?: ', '\n')
+    p.sendline(str(nLs))
+    p.sendafter('What color would you like on your light sabers: ', color)
+
+def exit():
+    p.sendlineafter('Your choice: ', '7')
+    
+# Start a process with correct library
+p=process(filename, env = {'LD_LIBRARY_PATH' : '.'})
+print(p.recv())
