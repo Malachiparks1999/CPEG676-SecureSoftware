@@ -1,0 +1,6 @@
+(skipping one for alignment) The bins: make a DM to me in which you explain the 5 basic bin types (small, large, unsorted, fast, tcache). 
+Which ones are singly linked? What is the difference between tcache and fastbins? 
+How do you end up in the smallbins for sizes that are also tcache and fastbin sizes? 
+This is "short answer" style, really to know that you can think casually about it. 
+So if you are rushing through, copy pasting, or just trying to knock out a HW then stop, and ask yourself if you could explain it at a whiteboard to a friend. 
+Once you think could whiteboard it, then hit me up.
