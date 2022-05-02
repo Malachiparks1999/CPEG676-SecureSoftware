@@ -1,0 +1,25 @@
+(skipping one for alignment) The bins: make a DM to me in which you explain the 5 basic bin types (small, large, unsorted, fast, tcache). 
+Which ones are singly linked? What is the difference between tcache and fastbins? 
+How do you end up in the smallbins for sizes that are also tcache and fastbin sizes? 
+This is "short answer" style, really to know that you can think casually about it. 
+So if you are rushing through, copy pasting, or just trying to knock out a HW then stop, and ask yourself if you could explain it at a whiteboard to a friend. 
+Once you think could whiteboard it, then hit me up.
+
+
+Which ones are singly linked lists?
+    Due to their smaller sizes, and limited ranges the tcache and fastbins are singly linked lists (SLL).
+    Since they fill up relatively quicikly and are capped at a certain amount of bins they can afford the 
+    at worst O(n) time complexity. The small, large and unsorted bins are all doubly linked lists (DLL)
+    due to the lack of constraints within the bins pertaining to quality. DLL's are easier to insert into, pop
+    etc with better time complexity.
+
+What is the difference between tcache and fastbins?
+    While fastbins and tcache contain essentially the same sizes, tcache does not live in GLIBC like the fastbins do
+    since they are part of the main arena. Tcache is not part of the main arena and is thread safe so it doesn't have
+    to worry about locking resources. EVERYTHING that can fit into tcache will attempt to route their first for size
+    when possible due to its access spead. There are also way less tcache bins then fastbins, 7 bins for tchache While
+    fastbins have 10 varying bin sizes as well. Finally, tcache was introduced in 2.27, way later than fastbins.
+
+How do you end up in the smallbins for sizes that are also tcache and fastbins sizes?
+    For the program to start mallocing into smallbins the tcache and fastbins must already be fully populated. 
+    However, if possible the fastbins will try to dump their contents into tcache to let items be stored in the fast bin.
