@@ -1,0 +1,2 @@
+Make your own version of tcache. Let's say you just have 8 bins one each for sizes: 0x20, 0x30, 0x40, 0x50, 0x60, 0x70, 0x80, and 0x90. 
+Create a tcache struct with room for 8 counts that you can add a chunk to up to a maximum size of 10 chunks per bin.
