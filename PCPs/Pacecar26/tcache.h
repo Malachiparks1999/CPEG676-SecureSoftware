@@ -11,8 +11,8 @@ File Description:   Header file for tache implementation which includes standard
 #include <stdio.h>
 
 // Defintions for vars
-#define CHUNK_LIMIT=10
-#define DATA_LIMIT=100
+#define CHUNK_LIMIT 10
+#define DATA_LIMIT 100
 
 // Definition of bin struct
 struct Bin{
@@ -27,3 +27,11 @@ struct Chunk{
     char data[DATA_LIMIT];
     struct Chunk* next_chunk;
 };
+
+// Function definitions - Bins
+void printBins(struct Bin *headBin);
+void insertBinAtRear(struct Bin *headBin);
+
+// Function definitions - Chunks 
+void printChunks(struct Chunk *headChunk);
+void insertChunkAtRear(struct Chunk *headChunk);
