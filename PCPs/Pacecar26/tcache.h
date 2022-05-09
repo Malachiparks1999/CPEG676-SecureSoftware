@@ -13,25 +13,31 @@ File Description:   Header file for tache implementation which includes standard
 // Defintions for vars
 #define CHUNK_LIMIT 10
 #define DATA_LIMIT 100
+#define BIN_LIMIT 8
 
 // Definition of bin struct
-struct Bin{
-    int bin_size;       // range of sizes from 0x20 - 0x90
-    int chunk_ct;       // needs to never exceed 10
-    struct Chunk* chunk_list;   // first chunk in the ilist
-    struct Bin* next_bin;       // Next bin, should only be 8
+typedef struct Bin{
+    int binSize;       // range of sizes from 0x20 - 0x90
+    int chunkCt;       // needs to never exceed 10
+    struct Chunk* chunkList;   // first chunk in the ilist
+    struct Bin* nextBin;       // Next bin, should only be 8
 };
 
 // Defintion of chunk struct
-struct Chunk{
+typedef struct Chunk{
     char data[DATA_LIMIT];
-    struct Chunk* next_chunk;
+    struct Chunk* nextChunk;
+};
+
+// Defintion of tcache struct
+typedef struct Tcache{
+    struct Bin* headBin;
 };
 
 // Function definitions - Bins
 void printBins(struct Bin *headBin);
-void insertBinAtRear(struct Bin *headBin);
+void pushBin(struct Bin *headBin, int binSize, int count);   // return negative # if something is wrong
 
 // Function definitions - Chunks 
 void printChunks(struct Chunk *headChunk);
-void insertChunkAtRear(struct Chunk *headChunk);
+int pushChunk(struct Chunk *headChunk); // return negative # if something is wrong
