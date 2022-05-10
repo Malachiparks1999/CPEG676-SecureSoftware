@@ -35,3 +35,12 @@ typedef struct Chunk{
     char data[DATA_LIMIT];      // random data within a chunk
     struct Chunk *nextChunk;    // next chunk in SLL
 } chunk;
+
+// tcache funcions
+void printTcache(struct Tcache *tcache);    // take in tcache and print the current values
+
+// bin functions
+void appendBin(struct Bin **headBin, int size);     // append to end of list
+
+// chunk functions
+void appendChunk(struct Chunk ***headChunk, char *data);    // append chunk to end of list
