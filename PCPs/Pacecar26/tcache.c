@@ -35,7 +35,31 @@ void printTcache(struct Tcache *tcache){    // take in tcache and print the curr
 }
 
 // bin functions
-void appendBin(struct Bin **headBin, int size);     // append to end of list
+void appendBin(struct Tcache *tcache, int size){       // append to end of list
+    struct Bin *newBin = malloc(sizeof(struct Bin));
+    struct Bin *currentBin = tcache->headBin;
+
+    // data into new bin
+    newBin->chunkLimit = CHUNK_LIMIT;
+    newBin->chunkCount = 0;
+    newBin->binSize = size;
+    newBin->headChunk = NULL;
+    newBin->nextBin = NULL;
+
+    // check if headref is null
+    if(tcache->headBin == NULL){
+        tcache->headBin = newBin;
+        return;
+    }
+
+    // not null appeand to end of list, traverse then add
+    while(currentBin->nextBin != NULL){
+        currentBin = currentBin->nextBin;
+    }
+
+    currentBin->nextBin = newBin;
+    return;
+}
 
 // chunk functions
 void appendChunk(struct Chunk ***headChunk, char *data);    // append chunk to end of list
@@ -43,16 +67,8 @@ void appendChunk(struct Chunk ***headChunk, char *data);    // append chunk to e
 int main(void){
     // make tcache struct
     struct Tcache *myTcache = malloc(sizeof(struct Tcache));
-
-    // make bin to see if printing works
-    struct Bin *firstBin = malloc(sizeof(struct Bin));
-    firstBin->chunkLimit = CHUNK_LIMIT;
-    firstBin->chunkCount = 0;
-    firstBin->binSize = 32;
-    firstBin->headChunk = NULL;
-    firstBin->nextBin = NULL;
-    myTcache->headBin = firstBin;
     
+    /*
     // make chunk to see if pritning works
     struct Chunk *firstChunk = malloc(sizeof(struct Chunk));
     firstChunk->data = 1;
@@ -61,6 +77,11 @@ int main(void){
     firstBin->headChunk = firstChunk;
     firstChunk->nextChunk = secondChunk;
     secondChunk->nextChunk = NULL;
+    */
+    appendBin(myTcache, 32);
+    appendBin(myTcache, 48);
+    appendBin(myTcache, 64);
+    appendBin(myTcache, 80);
 
     // test print
     printTcache(myTcache);

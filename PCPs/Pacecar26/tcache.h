@@ -39,7 +39,7 @@ typedef struct Tcache{
 void printTcache(struct Tcache *tcache);    // take in tcache and print the current values
 
 // bin functions
-void appendBin(struct Bin **headBin, int size);     // append to end of list
+void appendBin(struct Tcache *tcache, int size);     // append to end of list
 
 // chunk functions
 void appendChunk(struct Chunk ***headChunk, char *data);    // append chunk to end of list
