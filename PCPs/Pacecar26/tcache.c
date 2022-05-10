@@ -19,7 +19,6 @@ void printTcache(struct Tcache *tcache){    // take in tcache and print the curr
         printf("BIN %d CHUNK COUNT: %d\n",binCount, headbin->chunkCount);
         printf("BIN %d BIN SIZE: %d\n",binCount, headbin->binSize);
         printf("\n");
-
         // print chunk information related to bin
         chunk *headChunk = headbin->headChunk;
         while(headChunk != NULL){
@@ -29,6 +28,7 @@ void printTcache(struct Tcache *tcache){    // take in tcache and print the curr
             chunkCount++;
             headChunk = headChunk->nextChunk;
         }
+        printf("\n");
         chunkCount=0;
         binCount++;
         headbin = headbin->nextBin;
@@ -88,8 +88,8 @@ void appendChunk(struct Tcache *tcache, int size, int data){    // append chunk 
     struct Chunk *currentChunk = currentBin->headChunk;
 
     // null head ie empty list
-    if(currentChunk == NULL){
-        currentChunk = newChunk;
+    if(currentBin->headChunk == NULL){
+        currentBin->headChunk = newChunk;
         currentBin->chunkCount++;
         return;
     }
@@ -108,12 +108,13 @@ void appendChunk(struct Tcache *tcache, int size, int data){    // append chunk 
 int main(void){
     // make tcache struct
     struct Tcache *myTcache = malloc(sizeof(struct Tcache));
+    int const size = 32;
 
-    appendBin(myTcache, 32);
-    appendBin(myTcache, 48);
-    appendBin(myTcache, 64);
-    appendBin(myTcache, 80);
-
+    // Generate all the bins!
+    for(int i=0;i<BIN_LIMIT; i++){
+        appendBin(myTcache, size+(16*i));
+    }
+    appendChunk(myTcache, 31, 1);
     appendChunk(myTcache, 33, 1);
     appendChunk(myTcache, 79, 1);
 
