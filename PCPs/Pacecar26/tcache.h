@@ -12,14 +12,13 @@ File Description:   Header file for tache implementation which includes standard
 
 // Defintions for vars
 #define CHUNK_LIMIT 10
-#define DATA_LIMIT 100
 #define BIN_LIMIT 8
 
-// Tcache struct
-typedef struct Tcache{
-    int binLimit; // how many bins to limit to
-    struct Bin *headBin;    // start of the bins
-} tcache;
+// Chunk struct
+typedef struct Chunk{
+    int data;      // random data within a chunk
+    struct Chunk *nextChunk;    // next chunk in SLL
+} chunk;
 
 // Bin struct
 typedef struct Bin{
@@ -30,11 +29,11 @@ typedef struct Bin{
     struct Bin *nextBin;        // next bin in SLL
 } bin;
 
-// Chunk struct
-typedef struct Chunk{
-    char data[DATA_LIMIT];      // random data within a chunk
-    struct Chunk *nextChunk;    // next chunk in SLL
-} chunk;
+// Tcache struct
+typedef struct Tcache{
+    int binLimit; // how many bins to limit to
+    struct Bin *headBin;    // start of the bins
+} tcache;
 
 // tcache funcions
 void printTcache(struct Tcache *tcache);    // take in tcache and print the current values
