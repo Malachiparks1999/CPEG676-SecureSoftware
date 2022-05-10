@@ -16,6 +16,7 @@ File Description:   Header file for tache implementation which includes standard
 
 // Chunk struct
 typedef struct Chunk{
+    int chunkSize; // size of the chunk generated
     int data;      // random data within a chunk
     struct Chunk *nextChunk;    // next chunk in SLL
 } chunk;
@@ -42,4 +43,4 @@ void printTcache(struct Tcache *tcache);    // take in tcache and print the curr
 void appendBin(struct Tcache *tcache, int size);     // append to end of list
 
 // chunk functions
-void appendChunk(struct Chunk ***headChunk, char *data);    // append chunk to end of list
+void appendChunk(struct Tcache *tcache, int size, int data);    // append chunk to end of list
