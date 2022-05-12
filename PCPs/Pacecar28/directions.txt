@@ -1,0 +1,2 @@
+OK so use the notes instructions to connect a malloc.c debug glibc, follow the fastbin dup instructions to make a double-free. 
+Attempt to target an address like got.puts and have it fail. Take a screenshot of the malloc.c security check that you failed.
